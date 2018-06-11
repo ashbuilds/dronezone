@@ -8,3 +8,16 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+div#root:before {
+  background: url("assets/floor.jpg");
+  background-size: cover;
+  box-shadow: 0 0 34px 15px inset rgba(0, 0, 0, 0.5);
+  content: '';
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}

@@ -1,0 +1,91 @@
+
+.drone_container{
+    position: absolute;
+    width: 80%;
+    height: 60vh;
+    min-width: 260px;
+    min-height: 400px;
+    top: 90px;
+    left: 50%;
+    margin: 0 0 0 -40%;
+}
+
+.drone_zone{
+    position: absolute;
+    width: 80%;
+    height: 60vh;
+    min-width: 260px;
+    min-height: 400px;
+    top: 90px;
+    left: 50%;
+    margin: 0 0 0 -40%;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    box-shadow: 0 2px 10px 3px rgba(0, 0, 0, 0.30), 0 0 0 1px rgb(255, 255, 255);
+    transition: transform 0.98s cubic-bezier(.31,.69,.58,.46);
+}
+.drone_zone:after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #e2e2e254 url('../../assets/reflection.png');
+    background-size: cover;
+}
+.drone_zone>div{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.drone_zone>div>span{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: #d0d0d0;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px 0 #000000a8;
+}
+.drone_zone>div>span:after{
+    content: '';
+    width: 14px;
+    height: 14px;
+    background: #000000;
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -7px;
+}
+.drone_zone>div>span:nth-child(1){
+    left: 0;
+    top:0;
+}
+.drone_zone>div>span:nth-child(2){
+    right: 0;
+    top:0;
+}
+.drone_zone>div>span:nth-child(3){
+    right:0;
+    bottom: 0;
+}
+.drone_zone>div>span:nth-child(4){
+    left: 0;
+    bottom:0;
+}
+.drone_zone.zone_active{
+    transform: scale(0.98);
+}
+
+.drone_switch{
+    position: absolute;
+}
+.drone_on{
+    transform: scale(1.2);
+    box-shadow: 5px 16px 20px 0 #0000008c;
+}
+

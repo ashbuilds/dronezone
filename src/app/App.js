@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-import './App.css';
 import Zone from '../containers/zone';
 
 class App extends Component {
