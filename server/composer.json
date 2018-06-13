@@ -1,0 +1,6 @@
+{
+    "require": {
+        "workerman/phpsocket.io": "^1.1",
+        "hashids/hashids": "^3.0"
+    }
+}
