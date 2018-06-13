@@ -1,4 +1,5 @@
 import React from 'react';
+import socketIOClient from 'socket.io-client';
 
 import Drone from '../../components/drone';
 import Switch from '../../components/switch';
@@ -9,14 +10,46 @@ class Zone extends React.Component {
     super(props);
     this.state = {
       on: false,
+      // socket: '',
+      connected: '',
+      joined: '',
+      left: '',
     };
   }
 
+
+  componentDidMount() {
+    const socket = socketIOClient('http://192.168.1.34:3030');
+    // socket.
+    socket.on('connect', () => {
+      console.log('Client Connected!');
+      this.setState({
+        connected: 'Connected',
+      });
+    });
+    socket.on('drone code', (data) => {
+      this.setState({
+        left: JSON.stringify(data),
+      });
+    });
+    socket.on('client drone added', (status) => {
+      this.setState({
+        joined: JSON.stringify(status),
+        on: status,
+      });
+    });
+    socket.emit('add drone');
+  }
+
+
   onChange = () => {
     const { on } = this.state;
-    this.setState({
-      on: !on,
-    });
+    if(!on) {
+
+      // this.setState({
+      //   on: !on,
+      // });
+    }
   };
 
   render() {
@@ -31,6 +64,11 @@ class Zone extends React.Component {
         </div>
       </div>,
       <div key="drone_container" className="drone_container">
+        Connected: {this.state.connected}
+        <br />
+        Joined: {this.state.joined}
+        <br />
+        Left: {this.state.left}
         <Drone className={on ? 'drone_on' : ''} />
       </div>,
       <Switch key="drone_switch" className="drone_switch" onChange={this.onChange} />,
