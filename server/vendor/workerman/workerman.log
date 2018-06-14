@@ -1,0 +1,1159 @@
+2018-06-13 02:44:27 pid:58254 Workerman[index.php] start in DEBUG mode
+2018-06-13 02:53:01 pid:59273 Workerman[index.php] start in DEBUG mode
+2018-06-13 03:00:02 pid:67094 Workerman[index.php] start in DEBUG mode
+2018-06-13 03:01:05 pid:67802 Workerman[index.php] start in DEBUG mode
+2018-06-13 10:54:10 pid:67802 Workerman[index.php] stopping ...
+2018-06-13 10:54:10 pid:67802 Workerman[index.php] has been stopped
+2018-06-13 22:57:22 pid:75483 Workerman[index.php] start in DEBUG mode
+2018-06-13 22:58:04 pid:75483 Workerman[index.php] stopping ...
+2018-06-13 22:58:04 pid:75483 Workerman[index.php] has been stopped
+2018-06-13 22:58:12 pid:75501 Workerman[index.php] start in DAEMON mode
+2018-06-13 22:58:25 pid:75505 Workerman[index.php] start in DEBUG mode
+2018-06-13 22:58:25 pid:75505 Workerman[index.php] already running
+2018-06-13 23:00:01 pid:75511 Workerman[index.php] start in DEBUG mode
+2018-06-13 23:00:01 pid:75511 Workerman[index.php] already running
+2018-06-13 23:53:49 pid:75760 Workerman[index.php] stop 
+2018-06-13 23:53:49 pid:75760 Workerman[index.php] is stopping ...
+2018-06-13 23:53:49 pid:75503 Workerman[index.php] stopping ...
+2018-06-13 23:53:49 pid:75503 Workerman[index.php] has been stopped
+2018-06-13 23:53:49 pid:75760 Workerman[index.php] stop success
+2018-06-13 23:53:52 pid:75761 Workerman[index.php] start in DEBUG mode
+2018-06-13 23:54:30 pid:75761 Workerman[index.php] stopping ...
+2018-06-13 23:54:30 pid:75761 Workerman[index.php] has been stopped
+2018-06-13 23:54:30 pid:75768 Workerman[index.php] start in DEBUG mode
+2018-06-13 23:55:28 pid:75768 Workerman[index.php] stopping ...
+2018-06-13 23:55:28 pid:75768 Workerman[index.php] has been stopped
+2018-06-13 23:55:28 pid:75775 Workerman[index.php] start in DEBUG mode
+2018-06-13 23:57:43 pid:75775 Workerman[index.php] stopping ...
+2018-06-13 23:57:43 pid:75775 Workerman[index.php] has been stopped
+2018-06-13 23:57:44 pid:75787 Workerman[index.php] start in DEBUG mode
+2018-06-13 23:57:45 pid:75788 Worker[75788] process terminated with ERROR: E_ERROR "Allowed memory size of 134217728 bytes exhausted (tried to allocate 130027520 bytes) in /Users/ashishmishra/Documents/myfiles/dronezone/server/index.php on line 42"
+2018-06-13 23:57:45 pid:75787 worker[PHPSocketIO:75788] exit with status 65280
+2018-06-13 23:57:53 pid:75787 Workerman[index.php] stopping ...
+2018-06-13 23:57:53 pid:75787 Workerman[index.php] has been stopped
+2018-06-14 00:14:51 pid:75847 Workerman[index.php] start in DEBUG mode
+2018-06-14 00:18:58 pid:75847 Workerman[index.php] stopping ...
+2018-06-14 00:18:58 pid:75847 Workerman[index.php] has been stopped
+2018-06-14 00:18:58 pid:75865 Workerman[index.php] start in DEBUG mode
+2018-06-14 00:27:08 pid:75865 Workerman[index.php] stopping ...
+2018-06-14 00:27:08 pid:75865 Workerman[index.php] has been stopped
+2018-06-14 00:42:36 pid:76112 Workerman[index.php] start in DEBUG mode
+2018-06-14 00:43:05 pid:76112 Workerman[index.php] stopping ...
+2018-06-14 00:43:05 pid:76112 Workerman[index.php] has been stopped
+2018-06-14 00:43:06 pid:76121 Workerman[index.php] start in DEBUG mode
+2018-06-14 00:57:38 pid:76121 Workerman[index.php] stopping ...
+2018-06-14 00:57:38 pid:76121 Workerman[index.php] has been stopped
+2018-06-14 00:57:39 pid:76237 Workerman[index.php] start in DEBUG mode
+2018-06-14 00:57:48 pid:76237 Workerman[index.php] stopping ...
+2018-06-14 00:57:48 pid:76237 Workerman[index.php] has been stopped
+2018-06-14 00:57:49 pid:76243 Workerman[index.php] start in DEBUG mode
+2018-06-14 01:00:20 pid:76243 Workerman[index.php] stopping ...
+2018-06-14 01:00:20 pid:76243 Workerman[index.php] has been stopped
+2018-06-14 01:00:20 pid:76255 Workerman[index.php] start in DEBUG mode
+2018-06-14 01:00:37 pid:76255 Workerman[index.php] stopping ...
+2018-06-14 01:00:39 pid:76255 Workerman[index.php] stopping ...
+2018-06-14 01:00:39 pid:76255 worker[PHPSocketIO:76256] exit with status 9
+2018-06-14 01:00:39 pid:76255 Workerman[index.php] has been stopped
+2018-06-14 01:00:45 pid:76266 Workerman[index.php] start in DEBUG mode
+2018-06-14 01:00:57 pid:76267 Error: Cannot use object of type stdClass as array in /Users/ashishmishra/Documents/myfiles/dronezone/server/index.php:46
+Stack trace:
+#0 /Users/ashishmishra/Documents/myfiles/dronezone/server/index.php(65): UserStore->add('poU', '23db6c7253c8d64...')
+#1 [internal function]: {closure}('Test-1528909257...')
+#2 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Object(Closure), Array)
+#3 [internal function]: PHPSocketIO\Event\Emitter->emit('add drone', 'Test-1528909257...')
+#4 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Socket.php(307): call_user_func_array(Array, Array)
+#5 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Socket.php(269): PHPSocketIO\Socket->onevent(Array)
+#6 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(202): PHPSocketIO\Socket->onpacket(Array)
+#7 [internal function]: PHPSocketIO\Client->ondecoded(Array)
+#8 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#9 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Parser/Decoder.php(34): PHPSocketIO\Event\Emitter->emit('decoded', Array)
+#10 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(182): PHPSocketIO\Parser\Decoder->add('2["add drone","...')
+#11 [internal function]: PHPSocketIO\Client->ondata('2["add drone","...')
+#12 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#13 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Socket.php(187): PHPSocketIO\Event\Emitter->emit('data', '2["add drone","...')
+#14 [internal function]: PHPSocketIO\Engine\Socket->onPacket(Array)
+#15 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#16 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Transport.php(56): PHPSocketIO\Event\Emitter->emit('packet', Array)
+#17 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Transport.php(61): PHPSocketIO\Engine\Transport->onPacket(Array)
+#18 [internal function]: PHPSocketIO\Engine\Transport->onData('42["add drone",...')
+#19 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Transports/WebSocket.php(26): call_user_func(Array, '42["add drone",...')
+#20 [internal function]: PHPSocketIO\Engine\Transports\WebSocket->onData2(Object(Workerman\Connection\TcpConnection), '42["add drone",...')
+#21 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), '42["add drone",...')
+#22 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #66)
+#23 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/react/event-loop/src/StreamSelectLoop.php(238): call_user_func(Array, Resource id #66)
+#24 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/react/event-loop/src/StreamSelectLoop.php(205): React\EventLoop\StreamSelectLoop->waitForStreamActivity(84999953)
+#25 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Events/React/Base.php(252): React\EventLoop\StreamSelectLoop->run()
+#26 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Events/React/Base.php(135): Workerman\Events\React\Base->run()
+#27 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\React\Base->loop()
+#28 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1356): Workerman\Worker->run()
+#29 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#30 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#31 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(478): Workerman\Worker::forkWorkers()
+#32 /Users/ashishmishra/Documents/myfiles/dronezone/server/index.php(69): Workerman\Worker::runAll()
+#33 {main}
+2018-06-14 01:00:57 pid:76267 Worker[76267] process terminated
+2018-06-14 01:00:57 pid:76266 worker[PHPSocketIO:76267] exit with status 64000
+2018-06-14 01:01:08 pid:76266 Workerman[index.php] stopping ...
+2018-06-14 01:01:08 pid:76266 Workerman[index.php] has been stopped
+2018-06-14 01:01:09 pid:76275 Workerman[index.php] start in DEBUG mode
+2018-06-14 01:01:14 pid:76276 Error: Cannot use object of type stdClass as array in /Users/ashishmishra/Documents/myfiles/dronezone/server/index.php:46
+Stack trace:
+#0 /Users/ashishmishra/Documents/myfiles/dronezone/server/index.php(65): UserStore->add('poU', '50009b7653c8d64...')
+#1 [internal function]: {closure}('Test-1528909274...')
+#2 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Object(Closure), Array)
+#3 [internal function]: PHPSocketIO\Event\Emitter->emit('add drone', 'Test-1528909274...')
+#4 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Socket.php(307): call_user_func_array(Array, Array)
+#5 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Socket.php(269): PHPSocketIO\Socket->onevent(Array)
+#6 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(202): PHPSocketIO\Socket->onpacket(Array)
+#7 [internal function]: PHPSocketIO\Client->ondecoded(Array)
+#8 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#9 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Parser/Decoder.php(34): PHPSocketIO\Event\Emitter->emit('decoded', Array)
+#10 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(182): PHPSocketIO\Parser\Decoder->add('2["add drone","...')
+#11 [internal function]: PHPSocketIO\Client->ondata('2["add drone","...')
+#12 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#13 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Socket.php(187): PHPSocketIO\Event\Emitter->emit('data', '2["add drone","...')
+#14 [internal function]: PHPSocketIO\Engine\Socket->onPacket(Array)
+#15 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#16 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Transport.php(56): PHPSocketIO\Event\Emitter->emit('packet', Array)
+#17 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Transport.php(61): PHPSocketIO\Engine\Transport->onPacket(Array)
+#18 [internal function]: PHPSocketIO\Engine\Transport->onData('42["add drone",...')
+#19 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Transports/WebSocket.php(26): call_user_func(Array, '42["add drone",...')
+#20 [internal function]: PHPSocketIO\Engine\Transports\WebSocket->onData2(Object(Workerman\Connection\TcpConnection), '42["add drone",...')
+#21 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), '42["add drone",...')
+#22 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #67)
+#23 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/react/event-loop/src/StreamSelectLoop.php(238): call_user_func(Array, Resource id #67)
+#24 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/react/event-loop/src/StreamSelectLoop.php(205): React\EventLoop\StreamSelectLoop->waitForStreamActivity(84999963)
+#25 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Events/React/Base.php(252): React\EventLoop\StreamSelectLoop->run()
+#26 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Events/React/Base.php(135): Workerman\Events\React\Base->run()
+#27 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\React\Base->loop()
+#28 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1356): Workerman\Worker->run()
+#29 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#30 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#31 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(478): Workerman\Worker::forkWorkers()
+#32 /Users/ashishmishra/Documents/myfiles/dronezone/server/index.php(69): Workerman\Worker::runAll()
+#33 {main}
+2018-06-14 01:01:14 pid:76276 Worker[76276] process terminated
+2018-06-14 01:01:14 pid:76275 worker[PHPSocketIO:76276] exit with status 64000
+2018-06-14 01:01:28 pid:76275 Workerman[index.php] stopping ...
+2018-06-14 01:01:28 pid:76275 Workerman[index.php] has been stopped
+2018-06-14 01:01:28 pid:76282 Workerman[index.php] start in DEBUG mode
+2018-06-14 01:01:34 pid:76283 Error: Cannot use object of type stdClass as array in /Users/ashishmishra/Documents/myfiles/dronezone/server/index.php:46
+Stack trace:
+#0 /Users/ashishmishra/Documents/myfiles/dronezone/server/index.php(65): UserStore->add('baapoU', 'b98eba7b53c8d64...')
+#1 [internal function]: {closure}('Test-1528909294...')
+#2 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Object(Closure), Array)
+#3 [internal function]: PHPSocketIO\Event\Emitter->emit('add drone', 'Test-1528909294...')
+#4 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Socket.php(307): call_user_func_array(Array, Array)
+#5 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Socket.php(269): PHPSocketIO\Socket->onevent(Array)
+#6 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(202): PHPSocketIO\Socket->onpacket(Array)
+#7 [internal function]: PHPSocketIO\Client->ondecoded(Array)
+#8 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#9 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Parser/Decoder.php(34): PHPSocketIO\Event\Emitter->emit('decoded', Array)
+#10 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(182): PHPSocketIO\Parser\Decoder->add('2["add drone","...')
+#11 [internal function]: PHPSocketIO\Client->ondata('2["add drone","...')
+#12 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#13 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Socket.php(187): PHPSocketIO\Event\Emitter->emit('data', '2["add drone","...')
+#14 [internal function]: PHPSocketIO\Engine\Socket->onPacket(Array)
+#15 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#16 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Transport.php(56): PHPSocketIO\Event\Emitter->emit('packet', Array)
+#17 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Transport.php(61): PHPSocketIO\Engine\Transport->onPacket(Array)
+#18 [internal function]: PHPSocketIO\Engine\Transport->onData('42["add drone",...')
+#19 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Transports/WebSocket.php(26): call_user_func(Array, '42["add drone",...')
+#20 [internal function]: PHPSocketIO\Engine\Transports\WebSocket->onData2(Object(Workerman\Connection\TcpConnection), '42["add drone",...')
+#21 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), '42["add drone",...')
+#22 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #68)
+#23 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/react/event-loop/src/StreamSelectLoop.php(238): call_user_func(Array, Resource id #68)
+#24 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/react/event-loop/src/StreamSelectLoop.php(205): React\EventLoop\StreamSelectLoop->waitForStreamActivity(84999958)
+#25 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Events/React/Base.php(252): React\EventLoop\StreamSelectLoop->run()
+#26 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Events/React/Base.php(135): Workerman\Events\React\Base->run()
+#27 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\React\Base->loop()
+#28 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1356): Workerman\Worker->run()
+#29 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#30 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#31 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(478): Workerman\Worker::forkWorkers()
+#32 /Users/ashishmishra/Documents/myfiles/dronezone/server/index.php(69): Workerman\Worker::runAll()
+#33 {main}
+2018-06-14 01:01:34 pid:76283 Worker[76283] process terminated
+2018-06-14 01:01:35 pid:76282 worker[PHPSocketIO:76283] exit with status 64000
+2018-06-14 01:02:07 pid:76282 Workerman[index.php] stopping ...
+2018-06-14 01:02:07 pid:76282 Workerman[index.php] has been stopped
+2018-06-14 01:02:08 pid:76290 Workerman[index.php] start in DEBUG mode
+2018-06-14 01:03:03 pid:76290 Workerman[index.php] stopping ...
+2018-06-14 01:03:03 pid:76290 Workerman[index.php] has been stopped
+2018-06-14 01:03:22 pid:76301 Workerman[index.php] start in DEBUG mode
+2018-06-14 01:12:51 pid:76301 Workerman[index.php] stopping ...
+2018-06-14 01:12:51 pid:76301 Workerman[index.php] has been stopped
+2018-06-14 01:30:47 pid:76561 Workerman[index.php] start in DEBUG mode
+2018-06-14 01:31:49 pid:76561 Workerman[index.php] stopping ...
+2018-06-14 01:31:49 pid:76561 Workerman[index.php] has been stopped
+2018-06-14 01:31:49 pid:76571 Workerman[index.php] start in DEBUG mode
+2018-06-14 01:32:24 pid:76571 Workerman[index.php] stopping ...
+2018-06-14 01:32:24 pid:76571 Workerman[index.php] has been stopped
+2018-06-14 01:32:25 pid:76576 Workerman[index.php] start in DEBUG mode
+2018-06-14 01:33:06 pid:76576 Workerman[index.php] stopping ...
+2018-06-14 01:33:06 pid:76576 Workerman[index.php] has been stopped
+2018-06-14 01:33:07 pid:76582 Workerman[index.php] start in DEBUG mode
+2018-06-14 01:33:29 pid:76582 Workerman[index.php] stopping ...
+2018-06-14 01:33:29 pid:76582 Workerman[index.php] has been stopped
+2018-06-14 01:33:30 pid:76587 Workerman[index.php] start in DEBUG mode
+2018-06-14 01:33:59 pid:76587 Workerman[index.php] stopping ...
+2018-06-14 01:33:59 pid:76587 Workerman[index.php] has been stopped
+2018-06-14 01:34:00 pid:76593 Workerman[index.php] start in DEBUG mode
+2018-06-14 01:34:10 pid:76593 Workerman[index.php] stopping ...
+2018-06-14 01:34:10 pid:76593 Workerman[index.php] has been stopped
+2018-06-14 01:34:11 pid:76597 Workerman[index.php] start in DEBUG mode
+2018-06-14 01:34:27 pid:76597 Workerman[index.php] stopping ...
+2018-06-14 01:34:27 pid:76597 Workerman[index.php] has been stopped
+2018-06-14 01:34:28 pid:76601 Workerman[index.php] start in DEBUG mode
+2018-06-14 01:34:49 pid:76601 Workerman[index.php] stopping ...
+2018-06-14 01:34:49 pid:76601 Workerman[index.php] has been stopped
+2018-06-14 01:34:50 pid:76606 Workerman[index.php] start in DEBUG mode
+2018-06-14 01:35:15 pid:76606 Workerman[index.php] stopping ...
+2018-06-14 01:35:15 pid:76606 Workerman[index.php] has been stopped
+2018-06-14 01:35:15 pid:76611 Workerman[index.php] start in DEBUG mode
+2018-06-14 01:35:27 pid:76611 Workerman[index.php] stopping ...
+2018-06-14 01:35:27 pid:76611 Workerman[index.php] has been stopped
+2018-06-14 01:35:27 pid:76615 Workerman[index.php] start in DEBUG mode
+2018-06-14 01:36:17 pid:76615 Workerman[index.php] stopping ...
+2018-06-14 01:36:17 pid:76615 Workerman[index.php] has been stopped
+2018-06-14 01:36:18 pid:76621 Workerman[index.php] start in DEBUG mode
+2018-06-14 01:36:36 pid:76621 Workerman[index.php] stopping ...
+2018-06-14 01:36:36 pid:76621 Workerman[index.php] has been stopped
+2018-06-14 01:36:37 pid:76625 Workerman[index.php] start in DEBUG mode
+2018-06-14 01:37:03 pid:76625 Workerman[index.php] stopping ...
+2018-06-14 01:37:03 pid:76625 Workerman[index.php] has been stopped
+2018-06-14 01:37:03 pid:76631 Workerman[index.php] start in DEBUG mode
+2018-06-14 01:37:51 pid:76631 Workerman[index.php] stopping ...
+2018-06-14 01:37:51 pid:76631 Workerman[index.php] has been stopped
+2018-06-14 01:37:51 pid:76638 Workerman[index.php] start in DEBUG mode
+2018-06-14 01:39:25 pid:76638 Workerman[index.php] stopping ...
+2018-06-14 01:39:25 pid:76638 Workerman[index.php] has been stopped
+2018-06-14 01:39:26 pid:76647 Workerman[index.php] start in DEBUG mode
+2018-06-14 01:39:48 pid:76647 Workerman[index.php] stopping ...
+2018-06-14 01:39:48 pid:76647 Workerman[index.php] has been stopped
+2018-06-14 01:39:48 pid:76653 Workerman[index.php] start in DEBUG mode
+2018-06-14 01:43:01 pid:76653 Workerman[index.php] stopping ...
+2018-06-14 01:43:01 pid:76653 Workerman[index.php] has been stopped
+2018-06-14 01:43:35 pid:76673 Workerman[index.php] start in DEBUG mode
+2018-06-14 01:45:08 pid:76673 Workerman[index.php] stopping ...
+2018-06-14 01:45:08 pid:76673 Workerman[index.php] has been stopped
+2018-06-14 01:45:09 pid:76683 Workerman[index.php] start in DEBUG mode
+2018-06-14 01:46:10 pid:76683 Workerman[index.php] stopping ...
+2018-06-14 01:46:10 pid:76683 Workerman[index.php] has been stopped
+2018-06-14 01:46:11 pid:76690 Workerman[index.php] start in DEBUG mode
+2018-06-14 02:00:02 pid:76690 Workerman[index.php] stopping ...
+2018-06-14 02:00:02 pid:76690 Workerman[index.php] has been stopped
+2018-06-14 02:00:03 pid:76733 Workerman[index.php] start in DEBUG mode
+2018-06-14 02:14:55 pid:76733 Workerman[index.php] stopping ...
+2018-06-14 02:14:55 pid:76733 Workerman[index.php] has been stopped
+2018-06-14 02:14:56 pid:76807 Workerman[index.php] start in DEBUG mode
+2018-06-14 02:19:26 pid:76807 Workerman[index.php] stopping ...
+2018-06-14 02:19:26 pid:76807 Workerman[index.php] has been stopped
+2018-06-14 02:19:27 pid:76838 Workerman[index.php] start in DEBUG mode
+2018-06-14 02:19:52 pid:76838 Workerman[index.php] stopping ...
+2018-06-14 02:19:52 pid:76838 Workerman[index.php] has been stopped
+2018-06-14 02:19:52 pid:76845 Workerman[index.php] start in DEBUG mode
+2018-06-14 02:20:37 pid:76845 Workerman[index.php] stopping ...
+2018-06-14 02:20:37 pid:76845 Workerman[index.php] has been stopped
+2018-06-14 02:20:38 pid:76852 Workerman[index.php] start in DEBUG mode
+2018-06-14 03:45:20 pid:76852 Workerman[index.php] stopping ...
+2018-06-14 03:45:20 pid:76852 Workerman[index.php] has been stopped
+2018-06-14 03:45:21 pid:77708 Workerman[index.php] start in DEBUG mode
+2018-06-14 03:46:35 pid:77708 Workerman[index.php] stopping ...
+2018-06-14 03:46:35 pid:77708 Workerman[index.php] has been stopped
+2018-06-14 03:46:35 pid:77715 Workerman[index.php] start in DEBUG mode
+2018-06-14 03:53:29 pid:77715 Workerman[index.php] stopping ...
+2018-06-14 03:53:29 pid:77715 Workerman[index.php] has been stopped
+2018-06-14 03:53:30 pid:77734 Workerman[index.php] start in DEBUG mode
+2018-06-14 03:53:55 pid:77735 Error: Cannot use object of type PHPSocketIO\Nsp as array in /Users/ashishmishra/Documents/myfiles/dronezone/server/index.php:108
+Stack trace:
+#0 [internal function]: {closure}('9e8')
+#1 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('admin code', '9e8')
+#3 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Socket.php(307): call_user_func_array(Array, Array)
+#4 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Socket.php(269): PHPSocketIO\Socket->onevent(Array)
+#5 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(202): PHPSocketIO\Socket->onpacket(Array)
+#6 [internal function]: PHPSocketIO\Client->ondecoded(Array)
+#7 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#8 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Parser/Decoder.php(34): PHPSocketIO\Event\Emitter->emit('decoded', Array)
+#9 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(182): PHPSocketIO\Parser\Decoder->add('2["admin code",...')
+#10 [internal function]: PHPSocketIO\Client->ondata('2["admin code",...')
+#11 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#12 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Socket.php(187): PHPSocketIO\Event\Emitter->emit('data', '2["admin code",...')
+#13 [internal function]: PHPSocketIO\Engine\Socket->onPacket(Array)
+#14 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#15 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Transport.php(56): PHPSocketIO\Event\Emitter->emit('packet', Array)
+#16 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Transport.php(61): PHPSocketIO\Engine\Transport->onPacket(Array)
+#17 [internal function]: PHPSocketIO\Engine\Transport->onData('42["admin code"...')
+#18 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Transports/WebSocket.php(26): call_user_func(Array, '42["admin code"...')
+#19 [internal function]: PHPSocketIO\Engine\Transports\WebSocket->onData2(Object(Workerman\Connection\TcpConnection), '42["admin code"...')
+#20 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), '42["admin code"...')
+#21 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#22 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Events/Select.php(289): call_user_func_array(Array, Array)
+#23 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Select->loop()
+#24 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1356): Workerman\Worker->run()
+#25 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#26 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#27 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(478): Workerman\Worker::forkWorkers()
+#28 /Users/ashishmishra/Documents/myfiles/dronezone/server/index.php(123): Workerman\Worker::runAll()
+#29 {main}
+2018-06-14 03:53:55 pid:77735 Worker[77735] process terminated
+2018-06-14 03:53:55 pid:77734 worker[PHPSocketIO:77735] exit with status 64000
+2018-06-14 03:54:07 pid:77738 Error: Cannot use object of type PHPSocketIO\Nsp as array in /Users/ashishmishra/Documents/myfiles/dronezone/server/index.php:108
+Stack trace:
+#0 [internal function]: {closure}('9e8')
+#1 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('admin code', '9e8')
+#3 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Socket.php(307): call_user_func_array(Array, Array)
+#4 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Socket.php(269): PHPSocketIO\Socket->onevent(Array)
+#5 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(202): PHPSocketIO\Socket->onpacket(Array)
+#6 [internal function]: PHPSocketIO\Client->ondecoded(Array)
+#7 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#8 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Parser/Decoder.php(34): PHPSocketIO\Event\Emitter->emit('decoded', Array)
+#9 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(182): PHPSocketIO\Parser\Decoder->add('2["admin code",...')
+#10 [internal function]: PHPSocketIO\Client->ondata('2["admin code",...')
+#11 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#12 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Socket.php(187): PHPSocketIO\Event\Emitter->emit('data', '2["admin code",...')
+#13 [internal function]: PHPSocketIO\Engine\Socket->onPacket(Array)
+#14 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#15 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Transport.php(56): PHPSocketIO\Event\Emitter->emit('packet', Array)
+#16 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Transport.php(61): PHPSocketIO\Engine\Transport->onPacket(Array)
+#17 [internal function]: PHPSocketIO\Engine\Transport->onData('42["admin code"...')
+#18 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Transports/WebSocket.php(26): call_user_func(Array, '42["admin code"...')
+#19 [internal function]: PHPSocketIO\Engine\Transports\WebSocket->onData2(Object(Workerman\Connection\TcpConnection), '42["admin code"...')
+#20 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), '42["admin code"...')
+#21 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #45)
+#22 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Events/Select.php(289): call_user_func_array(Array, Array)
+#23 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Select->loop()
+#24 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1356): Workerman\Worker->run()
+#25 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#26 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#27 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#28 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#29 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#30 /Users/ashishmishra/Documents/myfiles/dronezone/server/index.php(123): Workerman\Worker::runAll()
+#31 {main}
+2018-06-14 03:54:07 pid:77738 Worker[77738] process terminated
+2018-06-14 03:54:07 pid:77734 worker[PHPSocketIO:77738] exit with status 64000
+2018-06-14 03:54:08 pid:77739 Error: Cannot use object of type PHPSocketIO\Nsp as array in /Users/ashishmishra/Documents/myfiles/dronezone/server/index.php:108
+Stack trace:
+#0 [internal function]: {closure}('9e8')
+#1 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('admin code', '9e8')
+#3 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Socket.php(307): call_user_func_array(Array, Array)
+#4 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Socket.php(269): PHPSocketIO\Socket->onevent(Array)
+#5 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(202): PHPSocketIO\Socket->onpacket(Array)
+#6 [internal function]: PHPSocketIO\Client->ondecoded(Array)
+#7 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#8 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Parser/Decoder.php(34): PHPSocketIO\Event\Emitter->emit('decoded', Array)
+#9 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(182): PHPSocketIO\Parser\Decoder->add('2["admin code",...')
+#10 [internal function]: PHPSocketIO\Client->ondata('2["admin code",...')
+#11 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#12 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Socket.php(187): PHPSocketIO\Event\Emitter->emit('data', '2["admin code",...')
+#13 [internal function]: PHPSocketIO\Engine\Socket->onPacket(Array)
+#14 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#15 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Transport.php(56): PHPSocketIO\Event\Emitter->emit('packet', Array)
+#16 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Transport.php(61): PHPSocketIO\Engine\Transport->onPacket(Array)
+#17 [internal function]: PHPSocketIO\Engine\Transport->onData('42["admin code"...')
+#18 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Transports/WebSocket.php(26): call_user_func(Array, '42["admin code"...')
+#19 [internal function]: PHPSocketIO\Engine\Transports\WebSocket->onData2(Object(Workerman\Connection\TcpConnection), '42["admin code"...')
+#20 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), '42["admin code"...')
+#21 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #46)
+#22 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Events/Select.php(289): call_user_func_array(Array, Array)
+#23 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Select->loop()
+#24 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1356): Workerman\Worker->run()
+#25 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#26 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#27 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#28 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#29 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#30 /Users/ashishmishra/Documents/myfiles/dronezone/server/index.php(123): Workerman\Worker::runAll()
+#31 {main}
+2018-06-14 03:54:08 pid:77739 Worker[77739] process terminated
+2018-06-14 03:54:08 pid:77734 worker[PHPSocketIO:77739] exit with status 64000
+2018-06-14 03:54:09 pid:77740 Error: Cannot use object of type PHPSocketIO\Nsp as array in /Users/ashishmishra/Documents/myfiles/dronezone/server/index.php:108
+Stack trace:
+#0 [internal function]: {closure}('9e8')
+#1 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('admin code', '9e8')
+#3 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Socket.php(307): call_user_func_array(Array, Array)
+#4 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Socket.php(269): PHPSocketIO\Socket->onevent(Array)
+#5 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(202): PHPSocketIO\Socket->onpacket(Array)
+#6 [internal function]: PHPSocketIO\Client->ondecoded(Array)
+#7 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#8 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Parser/Decoder.php(34): PHPSocketIO\Event\Emitter->emit('decoded', Array)
+#9 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(182): PHPSocketIO\Parser\Decoder->add('2["admin code",...')
+#10 [internal function]: PHPSocketIO\Client->ondata('2["admin code",...')
+#11 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#12 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Socket.php(187): PHPSocketIO\Event\Emitter->emit('data', '2["admin code",...')
+#13 [internal function]: PHPSocketIO\Engine\Socket->onPacket(Array)
+#14 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#15 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Transport.php(56): PHPSocketIO\Event\Emitter->emit('packet', Array)
+#16 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Transport.php(61): PHPSocketIO\Engine\Transport->onPacket(Array)
+#17 [internal function]: PHPSocketIO\Engine\Transport->onData('42["admin code"...')
+#18 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Transports/WebSocket.php(26): call_user_func(Array, '42["admin code"...')
+#19 [internal function]: PHPSocketIO\Engine\Transports\WebSocket->onData2(Object(Workerman\Connection\TcpConnection), '42["admin code"...')
+#20 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), '42["admin code"...')
+#21 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #52)
+#22 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Events/Select.php(289): call_user_func_array(Array, Array)
+#23 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Select->loop()
+#24 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1356): Workerman\Worker->run()
+#25 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#26 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#27 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#28 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#29 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#30 /Users/ashishmishra/Documents/myfiles/dronezone/server/index.php(123): Workerman\Worker::runAll()
+#31 {main}
+2018-06-14 03:54:09 pid:77740 Worker[77740] process terminated
+2018-06-14 03:54:09 pid:77734 worker[PHPSocketIO:77740] exit with status 64000
+2018-06-14 03:55:54 pid:77734 Workerman[index.php] stopping ...
+2018-06-14 03:55:54 pid:77734 Workerman[index.php] has been stopped
+2018-06-14 03:55:55 pid:77751 Workerman[index.php] start in DEBUG mode
+2018-06-14 03:57:12 pid:77752 Worker[77752] process terminated with ERROR: E_ERROR "Uncaught Error: Class '2ea9c3b35dc8d6410169eafb' not found in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php:61
+Stack trace:
+#0 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#1 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/SocketIO.php(130): PHPSocketIO\Client->connect('/')
+#2 [internal function]: PHPSocketIO\SocketIO->onConnection(Object(PHPSocketIO\Engine\Socket))
+#3 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#4 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Engine.php(219): PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Engine\Socket))
+#5 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/ in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php on line 61"
+2018-06-14 03:57:12 pid:77751 worker[PHPSocketIO:77752] exit with status 65280
+2018-06-14 03:57:55 pid:77756 Worker[77756] process terminated with ERROR: E_ERROR "Uncaught Error: Class '9d9ccdc65dc8d64102e91b84' not found in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php:61
+Stack trace:
+#0 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#1 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/SocketIO.php(130): PHPSocketIO\Client->connect('/')
+#2 [internal function]: PHPSocketIO\SocketIO->onConnection(Object(PHPSocketIO\Engine\Socket))
+#3 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#4 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Engine.php(219): PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Engine\Socket))
+#5 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/ in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php on line 61"
+2018-06-14 03:57:55 pid:77751 worker[PHPSocketIO:77756] exit with status 65280
+2018-06-14 03:58:58 pid:77761 Worker[77761] process terminated with ERROR: E_ERROR "Uncaught Error: Class '0403d1d65dc8d641041aa413' not found in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php:61
+Stack trace:
+#0 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#1 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/SocketIO.php(130): PHPSocketIO\Client->connect('/')
+#2 [internal function]: PHPSocketIO\SocketIO->onConnection(Object(PHPSocketIO\Engine\Socket))
+#3 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#4 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Engine.php(219): PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Engine\Socket))
+#5 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/ in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php on line 61"
+2018-06-14 03:58:58 pid:77751 worker[PHPSocketIO:77761] exit with status 65280
+2018-06-14 03:59:22 pid:77765 Worker[77765] process terminated with ERROR: E_ERROR "Uncaught Error: Class '603ed3e05dc8d64105a893da' not found in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php:61
+Stack trace:
+#0 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#1 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/SocketIO.php(130): PHPSocketIO\Client->connect('/')
+#2 [internal function]: PHPSocketIO\SocketIO->onConnection(Object(PHPSocketIO\Engine\Socket))
+#3 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#4 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Engine.php(219): PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Engine\Socket))
+#5 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/ in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php on line 61"
+2018-06-14 03:59:22 pid:77751 worker[PHPSocketIO:77765] exit with status 65280
+2018-06-14 04:01:17 pid:77751 Workerman[index.php] stopping ...
+2018-06-14 04:01:17 pid:77751 Workerman[index.php] has been stopped
+2018-06-14 04:01:17 pid:77775 Workerman[index.php] start in DEBUG mode
+2018-06-14 04:01:34 pid:77776 Worker[77776] process terminated with ERROR: E_ERROR "Uncaught Error: Class 'bb9bca045ec8d6410108d5a9' not found in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php:61
+Stack trace:
+#0 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#1 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/SocketIO.php(130): PHPSocketIO\Client->connect('/')
+#2 [internal function]: PHPSocketIO\SocketIO->onConnection(Object(PHPSocketIO\Engine\Socket))
+#3 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#4 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Engine.php(219): PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Engine\Socket))
+#5 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/ in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php on line 61"
+2018-06-14 04:01:34 pid:77775 worker[PHPSocketIO:77776] exit with status 65280
+2018-06-14 04:01:59 pid:77779 Worker[77779] process terminated with ERROR: E_ERROR "Uncaught Error: Class 'b43dcf075ec8d641017765c1' not found in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php:61
+Stack trace:
+#0 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#1 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/SocketIO.php(130): PHPSocketIO\Client->connect('/')
+#2 [internal function]: PHPSocketIO\SocketIO->onConnection(Object(PHPSocketIO\Engine\Socket))
+#3 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#4 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Engine.php(219): PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Engine\Socket))
+#5 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/ in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php on line 61"
+2018-06-14 04:01:59 pid:77775 worker[PHPSocketIO:77779] exit with status 65280
+2018-06-14 04:02:30 pid:77775 Workerman[index.php] stopping ...
+2018-06-14 04:02:30 pid:77775 Workerman[index.php] has been stopped
+2018-06-14 04:02:30 pid:77787 Workerman[index.php] start in DEBUG mode
+2018-06-14 04:03:06 pid:77788 Worker[77788] process terminated with ERROR: E_ERROR "Uncaught Error: Class '49be23195ec8d641046a2040' not found in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php:61
+Stack trace:
+#0 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#1 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/SocketIO.php(130): PHPSocketIO\Client->connect('/')
+#2 [internal function]: PHPSocketIO\SocketIO->onConnection(Object(PHPSocketIO\Engine\Socket))
+#3 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#4 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Engine.php(219): PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Engine\Socket))
+#5 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/ in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php on line 61"
+2018-06-14 04:03:06 pid:77787 worker[PHPSocketIO:77788] exit with status 65280
+2018-06-14 04:05:01 pid:77787 Workerman[index.php] stopping ...
+2018-06-14 04:05:01 pid:77787 Workerman[index.php] has been stopped
+2018-06-14 04:05:02 pid:77798 Workerman[index.php] start in DEBUG mode
+2018-06-14 04:05:22 pid:77799 Worker[77799] process terminated with ERROR: E_ERROR "Uncaught Error: Class '5bb0293d5ec8d6410209541d' not found in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php:61
+Stack trace:
+#0 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#1 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/SocketIO.php(130): PHPSocketIO\Client->connect('/')
+#2 [internal function]: PHPSocketIO\SocketIO->onConnection(Object(PHPSocketIO\Engine\Socket))
+#3 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#4 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Engine.php(219): PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Engine\Socket))
+#5 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/ in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php on line 61"
+2018-06-14 04:05:22 pid:77798 worker[PHPSocketIO:77799] exit with status 65280
+2018-06-14 04:05:45 pid:77801 Worker[77801] process terminated with ERROR: E_ERROR "Uncaught Error: Class '6af710415ec8d641042b2a69' not found in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php:61
+Stack trace:
+#0 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#1 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/SocketIO.php(130): PHPSocketIO\Client->connect('/')
+#2 [internal function]: PHPSocketIO\SocketIO->onConnection(Object(PHPSocketIO\Engine\Socket))
+#3 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#4 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Engine.php(219): PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Engine\Socket))
+#5 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/ in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php on line 61"
+2018-06-14 04:05:45 pid:77798 worker[PHPSocketIO:77801] exit with status 65280
+2018-06-14 04:06:32 pid:77798 Workerman[index.php] stopping ...
+2018-06-14 04:06:32 pid:77798 Workerman[index.php] has been stopped
+2018-06-14 04:07:04 pid:77815 Workerman[index.php] start in DEBUG mode
+2018-06-14 04:07:20 pid:77816 Worker[77816] process terminated with ERROR: E_ERROR "Uncaught Error: Class '34f6565b5ec8d64103e22032' not found in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php:61
+Stack trace:
+#0 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#1 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/SocketIO.php(130): PHPSocketIO\Client->connect('/')
+#2 [internal function]: PHPSocketIO\SocketIO->onConnection(Object(PHPSocketIO\Engine\Socket))
+#3 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#4 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Engine.php(219): PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Engine\Socket))
+#5 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/ in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php on line 61"
+2018-06-14 04:07:20 pid:77815 worker[PHPSocketIO:77816] exit with status 65280
+2018-06-14 04:07:44 pid:77821 Worker[77821] process terminated with ERROR: E_ERROR "Uncaught Error: Class 'f4366a5e5ec8d641035f58c7' not found in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php:61
+Stack trace:
+#0 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#1 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/SocketIO.php(130): PHPSocketIO\Client->connect('/')
+#2 [internal function]: PHPSocketIO\SocketIO->onConnection(Object(PHPSocketIO\Engine\Socket))
+#3 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#4 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Engine.php(219): PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Engine\Socket))
+#5 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/ in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php on line 61"
+2018-06-14 04:07:44 pid:77815 worker[PHPSocketIO:77821] exit with status 65280
+2018-06-14 10:39:40 pid:77815 Workerman[index.php] stopping ...
+2018-06-14 10:39:40 pid:77815 Workerman[index.php] has been stopped
+2018-06-14 10:39:41 pid:78207 Workerman[index.php] start in DEBUG mode
+2018-06-14 10:43:20 pid:78207 Workerman[index.php] stopping ...
+2018-06-14 10:43:20 pid:78207 Workerman[index.php] has been stopped
+2018-06-14 10:43:20 pid:78235 Workerman[index.php] start in DEBUG mode
+2018-06-14 10:43:42 pid:78238 Worker[78238] process terminated with ERROR: E_ERROR "Uncaught Error: Class 'b647a19575c8d64105a2d969' not found in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php:61
+Stack trace:
+#0 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#1 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/SocketIO.php(130): PHPSocketIO\Client->connect('/')
+#2 [internal function]: PHPSocketIO\SocketIO->onConnection(Object(PHPSocketIO\Engine\Socket))
+#3 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#4 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Engine.php(219): PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Engine\Socket))
+#5 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/ in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php on line 61"
+2018-06-14 10:43:42 pid:78235 worker[PHPSocketIO:78238] exit with status 65280
+2018-06-14 10:43:47 pid:78241 Error: Call to a member function emit() on string in /Users/ashishmishra/Documents/myfiles/dronezone/server/index.php:87
+Stack trace:
+#0 [internal function]: {closure}('249')
+#1 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('admin code', '249')
+#3 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Socket.php(307): call_user_func_array(Array, Array)
+#4 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Socket.php(269): PHPSocketIO\Socket->onevent(Array)
+#5 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(202): PHPSocketIO\Socket->onpacket(Array)
+#6 [internal function]: PHPSocketIO\Client->ondecoded(Array)
+#7 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#8 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Parser/Decoder.php(34): PHPSocketIO\Event\Emitter->emit('decoded', Array)
+#9 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(182): PHPSocketIO\Parser\Decoder->add('2["admin code",...')
+#10 [internal function]: PHPSocketIO\Client->ondata('2["admin code",...')
+#11 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#12 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Socket.php(187): PHPSocketIO\Event\Emitter->emit('data', '2["admin code",...')
+#13 [internal function]: PHPSocketIO\Engine\Socket->onPacket(Array)
+#14 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#15 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Transport.php(56): PHPSocketIO\Event\Emitter->emit('packet', Array)
+#16 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Transport.php(61): PHPSocketIO\Engine\Transport->onPacket(Array)
+#17 [internal function]: PHPSocketIO\Engine\Transport->onData('42["admin code"...')
+#18 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Transports/WebSocket.php(26): call_user_func(Array, '42["admin code"...')
+#19 [internal function]: PHPSocketIO\Engine\Transports\WebSocket->onData2(Object(Workerman\Connection\TcpConnection), '42["admin code"...')
+#20 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), '42["admin code"...')
+#21 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #50)
+#22 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Events/Select.php(289): call_user_func_array(Array, Array)
+#23 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Select->loop()
+#24 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1356): Workerman\Worker->run()
+#25 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#26 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#27 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#28 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#29 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#30 /Users/ashishmishra/Documents/myfiles/dronezone/server/index.php(97): Workerman\Worker::runAll()
+#31 {main}
+2018-06-14 10:43:47 pid:78241 Worker[78241] process terminated
+2018-06-14 10:43:47 pid:78235 worker[PHPSocketIO:78241] exit with status 64000
+2018-06-14 10:43:49 pid:78242 Error: Call to a member function emit() on string in /Users/ashishmishra/Documents/myfiles/dronezone/server/index.php:87
+Stack trace:
+#0 [internal function]: {closure}('249')
+#1 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('admin code', '249')
+#3 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Socket.php(307): call_user_func_array(Array, Array)
+#4 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Socket.php(269): PHPSocketIO\Socket->onevent(Array)
+#5 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(202): PHPSocketIO\Socket->onpacket(Array)
+#6 [internal function]: PHPSocketIO\Client->ondecoded(Array)
+#7 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#8 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Parser/Decoder.php(34): PHPSocketIO\Event\Emitter->emit('decoded', Array)
+#9 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(182): PHPSocketIO\Parser\Decoder->add('2["admin code",...')
+#10 [internal function]: PHPSocketIO\Client->ondata('2["admin code",...')
+#11 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#12 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Socket.php(187): PHPSocketIO\Event\Emitter->emit('data', '2["admin code",...')
+#13 [internal function]: PHPSocketIO\Engine\Socket->onPacket(Array)
+#14 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#15 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Transport.php(56): PHPSocketIO\Event\Emitter->emit('packet', Array)
+#16 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Transport.php(61): PHPSocketIO\Engine\Transport->onPacket(Array)
+#17 [internal function]: PHPSocketIO\Engine\Transport->onData('42["admin code"...')
+#18 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Transports/WebSocket.php(26): call_user_func(Array, '42["admin code"...')
+#19 [internal function]: PHPSocketIO\Engine\Transports\WebSocket->onData2(Object(Workerman\Connection\TcpConnection), '42["admin code"...')
+#20 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), '42["admin code"...')
+#21 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #51)
+#22 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Events/Select.php(289): call_user_func_array(Array, Array)
+#23 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Select->loop()
+#24 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1356): Workerman\Worker->run()
+#25 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#26 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#27 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#28 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#29 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#30 /Users/ashishmishra/Documents/myfiles/dronezone/server/index.php(97): Workerman\Worker::runAll()
+#31 {main}
+2018-06-14 10:43:49 pid:78242 Worker[78242] process terminated
+2018-06-14 10:43:49 pid:78235 worker[PHPSocketIO:78242] exit with status 64000
+2018-06-14 10:43:52 pid:78243 Error: Call to a member function emit() on string in /Users/ashishmishra/Documents/myfiles/dronezone/server/index.php:87
+Stack trace:
+#0 [internal function]: {closure}('249')
+#1 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('admin code', '249')
+#3 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Socket.php(307): call_user_func_array(Array, Array)
+#4 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Socket.php(269): PHPSocketIO\Socket->onevent(Array)
+#5 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(202): PHPSocketIO\Socket->onpacket(Array)
+#6 [internal function]: PHPSocketIO\Client->ondecoded(Array)
+#7 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#8 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Parser/Decoder.php(34): PHPSocketIO\Event\Emitter->emit('decoded', Array)
+#9 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(182): PHPSocketIO\Parser\Decoder->add('2["admin code",...')
+#10 [internal function]: PHPSocketIO\Client->ondata('2["admin code",...')
+#11 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#12 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Socket.php(187): PHPSocketIO\Event\Emitter->emit('data', '2["admin code",...')
+#13 [internal function]: PHPSocketIO\Engine\Socket->onPacket(Array)
+#14 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#15 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Transport.php(56): PHPSocketIO\Event\Emitter->emit('packet', Array)
+#16 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Transport.php(61): PHPSocketIO\Engine\Transport->onPacket(Array)
+#17 [internal function]: PHPSocketIO\Engine\Transport->onData('42["admin code"...')
+#18 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Transports/WebSocket.php(26): call_user_func(Array, '42["admin code"...')
+#19 [internal function]: PHPSocketIO\Engine\Transports\WebSocket->onData2(Object(Workerman\Connection\TcpConnection), '42["admin code"...')
+#20 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), '42["admin code"...')
+#21 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #52)
+#22 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Events/Select.php(289): call_user_func_array(Array, Array)
+#23 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Select->loop()
+#24 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1356): Workerman\Worker->run()
+#25 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#26 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#27 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#28 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#29 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#30 /Users/ashishmishra/Documents/myfiles/dronezone/server/index.php(97): Workerman\Worker::runAll()
+#31 {main}
+2018-06-14 10:43:52 pid:78243 Worker[78243] process terminated
+2018-06-14 10:43:52 pid:78235 worker[PHPSocketIO:78243] exit with status 64000
+2018-06-14 10:44:13 pid:78244 Error: Call to a member function emit() on string in /Users/ashishmishra/Documents/myfiles/dronezone/server/index.php:87
+Stack trace:
+#0 [internal function]: {closure}('249')
+#1 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('admin code', '249')
+#3 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Socket.php(307): call_user_func_array(Array, Array)
+#4 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Socket.php(269): PHPSocketIO\Socket->onevent(Array)
+#5 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(202): PHPSocketIO\Socket->onpacket(Array)
+#6 [internal function]: PHPSocketIO\Client->ondecoded(Array)
+#7 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#8 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Parser/Decoder.php(34): PHPSocketIO\Event\Emitter->emit('decoded', Array)
+#9 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(182): PHPSocketIO\Parser\Decoder->add('2["admin code",...')
+#10 [internal function]: PHPSocketIO\Client->ondata('2["admin code",...')
+#11 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#12 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Socket.php(187): PHPSocketIO\Event\Emitter->emit('data', '2["admin code",...')
+#13 [internal function]: PHPSocketIO\Engine\Socket->onPacket(Array)
+#14 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#15 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Transport.php(56): PHPSocketIO\Event\Emitter->emit('packet', Array)
+#16 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Transport.php(61): PHPSocketIO\Engine\Transport->onPacket(Array)
+#17 [internal function]: PHPSocketIO\Engine\Transport->onData('42["admin code"...')
+#18 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Transports/WebSocket.php(26): call_user_func(Array, '42["admin code"...')
+#19 [internal function]: PHPSocketIO\Engine\Transports\WebSocket->onData2(Object(Workerman\Connection\TcpConnection), '42["admin code"...')
+#20 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), '42["admin code"...')
+#21 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #48)
+#22 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Events/Select.php(289): call_user_func_array(Array, Array)
+#23 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Select->loop()
+#24 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1356): Workerman\Worker->run()
+#25 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#26 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#27 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#28 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#29 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#30 /Users/ashishmishra/Documents/myfiles/dronezone/server/index.php(97): Workerman\Worker::runAll()
+#31 {main}
+2018-06-14 10:44:13 pid:78244 Worker[78244] process terminated
+2018-06-14 10:44:13 pid:78235 worker[PHPSocketIO:78244] exit with status 64000
+2018-06-14 10:44:52 pid:78235 Workerman[index.php] stopping ...
+2018-06-14 10:44:52 pid:78235 Workerman[index.php] has been stopped
+2018-06-14 22:50:00 pid:87265 Workerman[index.php] start in DEBUG mode
+2018-06-14 22:51:25 pid:87266 Worker[87266] process terminated with ERROR: E_ERROR "Uncaught Error: Class '44320a30a0c8d6410476fe68' not found in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php:61
+Stack trace:
+#0 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#1 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/SocketIO.php(130): PHPSocketIO\Client->connect('/')
+#2 [internal function]: PHPSocketIO\SocketIO->onConnection(Object(PHPSocketIO\Engine\Socket))
+#3 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#4 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Engine.php(219): PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Engine\Socket))
+#5 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/ in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php on line 61"
+2018-06-14 22:51:25 pid:87265 worker[PHPSocketIO:87266] exit with status 65280
+2018-06-14 22:52:45 pid:87284 Worker[87284] process terminated with ERROR: E_ERROR "Uncaught Error: Class '890b134ba0c8d641046d3dfd' not found in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php:61
+Stack trace:
+#0 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#1 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/SocketIO.php(130): PHPSocketIO\Client->connect('/')
+#2 [internal function]: PHPSocketIO\SocketIO->onConnection(Object(PHPSocketIO\Engine\Socket))
+#3 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#4 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Engine.php(219): PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Engine\Socket))
+#5 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/ in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php on line 61"
+2018-06-14 22:52:45 pid:87265 worker[PHPSocketIO:87284] exit with status 65280
+2018-06-14 22:54:13 pid:87265 Workerman[index.php] stopping ...
+2018-06-14 22:54:13 pid:87265 Workerman[index.php] has been stopped
+2018-06-14 22:54:14 pid:87297 Workerman[index.php] start in DEBUG mode
+2018-06-14 22:54:31 pid:87298 Worker[87298] process terminated with ERROR: E_ERROR "Uncaught Error: Class '7023dc66a0c8d64100c3cfca' not found in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php:61
+Stack trace:
+#0 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#1 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/SocketIO.php(130): PHPSocketIO\Client->connect('/')
+#2 [internal function]: PHPSocketIO\SocketIO->onConnection(Object(PHPSocketIO\Engine\Socket))
+#3 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#4 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Engine.php(219): PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Engine\Socket))
+#5 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/ in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php on line 61"
+2018-06-14 22:54:31 pid:87297 worker[PHPSocketIO:87298] exit with status 65280
+2018-06-14 22:54:59 pid:87297 Workerman[index.php] stopping ...
+2018-06-14 22:54:59 pid:87297 Workerman[index.php] has been stopped
+2018-06-14 22:55:00 pid:87306 Workerman[index.php] start in DEBUG mode
+2018-06-14 22:55:51 pid:87307 Worker[87307] process terminated with ERROR: E_ERROR "Uncaught Error: Class '38127e7aa0c8d64102057834' not found in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php:61
+Stack trace:
+#0 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#1 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/SocketIO.php(130): PHPSocketIO\Client->connect('/')
+#2 [internal function]: PHPSocketIO\SocketIO->onConnection(Object(PHPSocketIO\Engine\Socket))
+#3 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#4 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Engine.php(219): PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Engine\Socket))
+#5 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/ in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php on line 61"
+2018-06-14 22:55:51 pid:87306 worker[PHPSocketIO:87307] exit with status 65280
+2018-06-14 22:57:45 pid:87306 Workerman[index.php] stopping ...
+2018-06-14 22:57:45 pid:87306 Workerman[index.php] has been stopped
+2018-06-14 22:57:46 pid:87324 Workerman[index.php] start in DEBUG mode
+2018-06-14 22:58:40 pid:87324 Workerman[index.php] stopping ...
+2018-06-14 22:58:40 pid:87324 Workerman[index.php] has been stopped
+2018-06-14 22:58:41 pid:87329 Workerman[index.php] start in DEBUG mode
+2018-06-14 22:58:54 pid:87330 Worker[87330] process terminated with ERROR: E_ERROR "Uncaught Error: Class 'd7849ba9a0c8d64102b533a4' not found in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php:61
+Stack trace:
+#0 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#1 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/SocketIO.php(130): PHPSocketIO\Client->connect('/')
+#2 [internal function]: PHPSocketIO\SocketIO->onConnection(Object(PHPSocketIO\Engine\Socket))
+#3 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#4 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Engine.php(219): PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Engine\Socket))
+#5 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/ in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php on line 61"
+2018-06-14 22:58:54 pid:87329 worker[PHPSocketIO:87330] exit with status 65280
+2018-06-14 22:58:58 pid:87333 Error: Call to a member function emit() on string in /Users/ashishmishra/Documents/myfiles/dronezone/server/index.php:91
+Stack trace:
+#0 [internal function]: {closure}('75e')
+#1 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('admin code', '75e')
+#3 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Socket.php(307): call_user_func_array(Array, Array)
+#4 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Socket.php(269): PHPSocketIO\Socket->onevent(Array)
+#5 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(202): PHPSocketIO\Socket->onpacket(Array)
+#6 [internal function]: PHPSocketIO\Client->ondecoded(Array)
+#7 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#8 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Parser/Decoder.php(34): PHPSocketIO\Event\Emitter->emit('decoded', Array)
+#9 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(182): PHPSocketIO\Parser\Decoder->add('2["admin code",...')
+#10 [internal function]: PHPSocketIO\Client->ondata('2["admin code",...')
+#11 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#12 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Socket.php(187): PHPSocketIO\Event\Emitter->emit('data', '2["admin code",...')
+#13 [internal function]: PHPSocketIO\Engine\Socket->onPacket(Array)
+#14 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#15 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Transport.php(56): PHPSocketIO\Event\Emitter->emit('packet', Array)
+#16 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Transport.php(61): PHPSocketIO\Engine\Transport->onPacket(Array)
+#17 [internal function]: PHPSocketIO\Engine\Transport->onData('42["admin code"...')
+#18 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Transports/WebSocket.php(26): call_user_func(Array, '42["admin code"...')
+#19 [internal function]: PHPSocketIO\Engine\Transports\WebSocket->onData2(Object(Workerman\Connection\TcpConnection), '42["admin code"...')
+#20 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), '42["admin code"...')
+#21 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #50)
+#22 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Events/Select.php(289): call_user_func_array(Array, Array)
+#23 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Select->loop()
+#24 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1356): Workerman\Worker->run()
+#25 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#26 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#27 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#28 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#29 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#30 /Users/ashishmishra/Documents/myfiles/dronezone/server/index.php(101): Workerman\Worker::runAll()
+#31 {main}
+2018-06-14 22:58:58 pid:87333 Worker[87333] process terminated
+2018-06-14 22:58:58 pid:87329 worker[PHPSocketIO:87333] exit with status 64000
+2018-06-14 22:59:21 pid:87329 Workerman[index.php] stopping ...
+2018-06-14 22:59:21 pid:87329 Workerman[index.php] has been stopped
+2018-06-14 22:59:21 pid:87337 Workerman[index.php] start in DEBUG mode
+2018-06-14 22:59:46 pid:87338 Worker[87338] process terminated with ERROR: E_ERROR "Uncaught Error: Class '177f7ab3a0c8d641007b629b' not found in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php:61
+Stack trace:
+#0 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#1 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/SocketIO.php(130): PHPSocketIO\Client->connect('/')
+#2 [internal function]: PHPSocketIO\SocketIO->onConnection(Object(PHPSocketIO\Engine\Socket))
+#3 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#4 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Engine.php(219): PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Engine\Socket))
+#5 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/ in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php on line 61"
+2018-06-14 22:59:46 pid:87337 worker[PHPSocketIO:87338] exit with status 65280
+2018-06-14 23:00:42 pid:87337 Workerman[index.php] stopping ...
+2018-06-14 23:00:42 pid:87337 Workerman[index.php] has been stopped
+2018-06-14 23:00:42 pid:87349 Workerman[index.php] start in DEBUG mode
+2018-06-14 23:01:00 pid:87350 Worker[87350] process terminated with ERROR: E_ERROR "Uncaught Error: Class '098c0fc8a0c8d6410519400d' not found in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php:61
+Stack trace:
+#0 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#1 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/SocketIO.php(130): PHPSocketIO\Client->connect('/')
+#2 [internal function]: PHPSocketIO\SocketIO->onConnection(Object(PHPSocketIO\Engine\Socket))
+#3 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#4 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Engine.php(219): PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Engine\Socket))
+#5 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/ in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php on line 61"
+2018-06-14 23:01:00 pid:87349 worker[PHPSocketIO:87350] exit with status 65280
+2018-06-14 23:01:19 pid:87349 Workerman[index.php] stopping ...
+2018-06-14 23:01:19 pid:87349 Workerman[index.php] has been stopped
+2018-06-14 23:01:19 pid:87356 Workerman[index.php] start in DEBUG mode
+2018-06-14 23:01:23 pid:87356 Workerman[index.php] stopping ...
+2018-06-14 23:01:23 pid:87356 Workerman[index.php] has been stopped
+2018-06-14 23:01:23 pid:87359 Workerman[index.php] start in DEBUG mode
+2018-06-14 23:01:38 pid:87360 Worker[87360] process terminated with ERROR: E_ERROR "Uncaught Error: Class 'af5b79d2a0c8d6410344ea36' not found in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php:61
+Stack trace:
+#0 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#1 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/SocketIO.php(130): PHPSocketIO\Client->connect('/')
+#2 [internal function]: PHPSocketIO\SocketIO->onConnection(Object(PHPSocketIO\Engine\Socket))
+#3 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#4 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Engine.php(219): PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Engine\Socket))
+#5 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/ in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php on line 61"
+2018-06-14 23:01:38 pid:87359 worker[PHPSocketIO:87360] exit with status 65280
+2018-06-14 23:03:00 pid:87359 Workerman[index.php] stopping ...
+2018-06-14 23:03:00 pid:87359 Workerman[index.php] has been stopped
+2018-06-14 23:03:01 pid:87376 Workerman[index.php] start in DEBUG mode
+2018-06-14 23:03:21 pid:87377 Worker[87377] process terminated with ERROR: E_ERROR "Uncaught Error: Class '7f6839eba0c8d64102848e82' not found in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php:61
+Stack trace:
+#0 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#1 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/SocketIO.php(130): PHPSocketIO\Client->connect('/')
+#2 [internal function]: PHPSocketIO\SocketIO->onConnection(Object(PHPSocketIO\Engine\Socket))
+#3 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#4 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Engine.php(219): PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Engine\Socket))
+#5 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/ in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php on line 61"
+2018-06-14 23:03:21 pid:87376 worker[PHPSocketIO:87377] exit with status 65280
+2018-06-14 23:05:15 pid:87376 Workerman[index.php] stopping ...
+2018-06-14 23:05:15 pid:87376 Workerman[index.php] has been stopped
+2018-06-14 23:05:15 pid:87388 Workerman[index.php] start in DEBUG mode
+2018-06-14 23:05:38 pid:87389 Worker[87389] process terminated with ERROR: E_ERROR "Uncaught Error: Class 'b0cb0e0ca1c8d6410049f7da' not found in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php:61
+Stack trace:
+#0 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#1 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/SocketIO.php(130): PHPSocketIO\Client->connect('/')
+#2 [internal function]: PHPSocketIO\SocketIO->onConnection(Object(PHPSocketIO\Engine\Socket))
+#3 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#4 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Engine.php(219): PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Engine\Socket))
+#5 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/ in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php on line 61"
+2018-06-14 23:05:38 pid:87388 worker[PHPSocketIO:87389] exit with status 65280
+2018-06-14 23:07:31 pid:87392 Error: Call to a member function emit() on string in /Users/ashishmishra/Documents/myfiles/dronezone/server/index.php:91
+Stack trace:
+#0 [internal function]: {closure}('ss')
+#1 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('admin code', 'ss')
+#3 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Socket.php(307): call_user_func_array(Array, Array)
+#4 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Socket.php(269): PHPSocketIO\Socket->onevent(Array)
+#5 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(202): PHPSocketIO\Socket->onpacket(Array)
+#6 [internal function]: PHPSocketIO\Client->ondecoded(Array)
+#7 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#8 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Parser/Decoder.php(34): PHPSocketIO\Event\Emitter->emit('decoded', Array)
+#9 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(182): PHPSocketIO\Parser\Decoder->add('2["admin code",...')
+#10 [internal function]: PHPSocketIO\Client->ondata('2["admin code",...')
+#11 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#12 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Socket.php(187): PHPSocketIO\Event\Emitter->emit('data', '2["admin code",...')
+#13 [internal function]: PHPSocketIO\Engine\Socket->onPacket(Array)
+#14 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#15 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Transport.php(56): PHPSocketIO\Event\Emitter->emit('packet', Array)
+#16 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Transport.php(61): PHPSocketIO\Engine\Transport->onPacket(Array)
+#17 [internal function]: PHPSocketIO\Engine\Transport->onData('42["admin code"...')
+#18 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Transports/WebSocket.php(26): call_user_func(Array, '42["admin code"...')
+#19 [internal function]: PHPSocketIO\Engine\Transports\WebSocket->onData2(Object(Workerman\Connection\TcpConnection), '42["admin code"...')
+#20 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), '42["admin code"...')
+#21 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #65)
+#22 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Events/Select.php(289): call_user_func_array(Array, Array)
+#23 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Select->loop()
+#24 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1356): Workerman\Worker->run()
+#25 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#26 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#27 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#28 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#29 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#30 /Users/ashishmishra/Documents/myfiles/dronezone/server/index.php(101): Workerman\Worker::runAll()
+#31 {main}
+2018-06-14 23:07:31 pid:87392 Worker[87392] process terminated
+2018-06-14 23:07:31 pid:87388 worker[PHPSocketIO:87392] exit with status 64000
+2018-06-14 23:20:47 pid:87388 Workerman[index.php] stopping ...
+2018-06-14 23:20:47 pid:87388 Workerman[index.php] has been stopped
+2018-06-14 23:20:47 pid:87436 Workerman[index.php] start in DEBUG mode
+2018-06-14 23:21:15 pid:87437 Worker[87437] process terminated with ERROR: E_ERROR "Uncaught Error: Class 'fc8ca5f5a1c8d64100f5fb03' not found in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php:61
+Stack trace:
+#0 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#1 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/SocketIO.php(130): PHPSocketIO\Client->connect('/')
+#2 [internal function]: PHPSocketIO\SocketIO->onConnection(Object(PHPSocketIO\Engine\Socket))
+#3 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#4 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Engine.php(219): PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Engine\Socket))
+#5 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/ in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php on line 61"
+2018-06-14 23:21:15 pid:87436 worker[PHPSocketIO:87437] exit with status 65280
+2018-06-14 23:21:58 pid:87436 Workerman[index.php] stopping ...
+2018-06-14 23:21:58 pid:87436 Workerman[index.php] has been stopped
+2018-06-14 23:21:58 pid:87454 Workerman[index.php] start in DEBUG mode
+2018-06-14 23:23:21 pid:87454 Workerman[index.php] stopping ...
+2018-06-14 23:23:21 pid:87454 Workerman[index.php] has been stopped
+2018-06-14 23:23:21 pid:87463 Workerman[index.php] start in DEBUG mode
+2018-06-14 23:25:21 pid:87463 Workerman[index.php] stopping ...
+2018-06-14 23:25:21 pid:87463 Workerman[index.php] has been stopped
+2018-06-14 23:25:25 pid:87480 Workerman[index.php] start in DEBUG mode
+2018-06-14 23:26:23 pid:87480 Workerman[index.php] stopping ...
+2018-06-14 23:26:23 pid:87480 Workerman[index.php] has been stopped
+2018-06-14 23:26:24 pid:87488 Workerman[index.php] start in DEBUG mode
+2018-06-14 23:26:43 pid:87489 Worker[87489] process terminated with ERROR: E_ERROR "Uncaught Error: Class '07d3f349a2c8d64104a3dc72' not found in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php:61
+Stack trace:
+#0 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#1 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/SocketIO.php(130): PHPSocketIO\Client->connect('/')
+#2 [internal function]: PHPSocketIO\SocketIO->onConnection(Object(PHPSocketIO\Engine\Socket))
+#3 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#4 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Engine.php(219): PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Engine\Socket))
+#5 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/ in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php on line 61"
+2018-06-14 23:26:43 pid:87488 worker[PHPSocketIO:87489] exit with status 65280
+2018-06-14 23:26:52 pid:87491 Error: Call to a member function emit() on string in /Users/ashishmishra/Documents/myfiles/dronezone/server/index.php:96
+Stack trace:
+#0 [internal function]: {closure}('ss')
+#1 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('admin code', 'ss')
+#3 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Socket.php(307): call_user_func_array(Array, Array)
+#4 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Socket.php(269): PHPSocketIO\Socket->onevent(Array)
+#5 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(202): PHPSocketIO\Socket->onpacket(Array)
+#6 [internal function]: PHPSocketIO\Client->ondecoded(Array)
+#7 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#8 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Parser/Decoder.php(34): PHPSocketIO\Event\Emitter->emit('decoded', Array)
+#9 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(182): PHPSocketIO\Parser\Decoder->add('2["admin code",...')
+#10 [internal function]: PHPSocketIO\Client->ondata('2["admin code",...')
+#11 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#12 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Socket.php(187): PHPSocketIO\Event\Emitter->emit('data', '2["admin code",...')
+#13 [internal function]: PHPSocketIO\Engine\Socket->onPacket(Array)
+#14 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#15 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Transport.php(56): PHPSocketIO\Event\Emitter->emit('packet', Array)
+#16 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Transport.php(61): PHPSocketIO\Engine\Transport->onPacket(Array)
+#17 [internal function]: PHPSocketIO\Engine\Transport->onData('42["admin code"...')
+#18 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Transports/WebSocket.php(26): call_user_func(Array, '42["admin code"...')
+#19 [internal function]: PHPSocketIO\Engine\Transports\WebSocket->onData2(Object(Workerman\Connection\TcpConnection), '42["admin code"...')
+#20 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), '42["admin code"...')
+#21 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #50)
+#22 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Events/Select.php(289): call_user_func_array(Array, Array)
+#23 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Select->loop()
+#24 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1356): Workerman\Worker->run()
+#25 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#26 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#27 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#28 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#29 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#30 /Users/ashishmishra/Documents/myfiles/dronezone/server/index.php(110): Workerman\Worker::runAll()
+#31 {main}
+2018-06-14 23:26:52 pid:87491 Worker[87491] process terminated
+2018-06-14 23:26:52 pid:87488 worker[PHPSocketIO:87491] exit with status 64000
+2018-06-14 23:29:39 pid:87488 Workerman[index.php] stopping ...
+2018-06-14 23:29:39 pid:87488 Workerman[index.php] has been stopped
+2018-06-14 23:29:39 pid:87503 Workerman[index.php] start in DEBUG mode
+2018-06-14 23:29:55 pid:87504 Error: Call to a member function emit() on string in /Users/ashishmishra/Documents/myfiles/dronezone/server/index.php:97
+Stack trace:
+#0 [internal function]: {closure}('sss')
+#1 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('admin code', 'sss')
+#3 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Socket.php(307): call_user_func_array(Array, Array)
+#4 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Socket.php(269): PHPSocketIO\Socket->onevent(Array)
+#5 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(202): PHPSocketIO\Socket->onpacket(Array)
+#6 [internal function]: PHPSocketIO\Client->ondecoded(Array)
+#7 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#8 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Parser/Decoder.php(34): PHPSocketIO\Event\Emitter->emit('decoded', Array)
+#9 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(182): PHPSocketIO\Parser\Decoder->add('2["admin code",...')
+#10 [internal function]: PHPSocketIO\Client->ondata('2["admin code",...')
+#11 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#12 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Socket.php(187): PHPSocketIO\Event\Emitter->emit('data', '2["admin code",...')
+#13 [internal function]: PHPSocketIO\Engine\Socket->onPacket(Array)
+#14 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#15 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Transport.php(56): PHPSocketIO\Event\Emitter->emit('packet', Array)
+#16 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Transport.php(61): PHPSocketIO\Engine\Transport->onPacket(Array)
+#17 [internal function]: PHPSocketIO\Engine\Transport->onData('42["admin code"...')
+#18 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Transports/WebSocket.php(26): call_user_func(Array, '42["admin code"...')
+#19 [internal function]: PHPSocketIO\Engine\Transports\WebSocket->onData2(Object(Workerman\Connection\TcpConnection), '42["admin code"...')
+#20 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func(Array, Object(Workerman\Connection\TcpConnection), '42["admin code"...')
+#21 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#22 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Events/Select.php(289): call_user_func_array(Array, Array)
+#23 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Select->loop()
+#24 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1356): Workerman\Worker->run()
+#25 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#26 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#27 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(478): Workerman\Worker::forkWorkers()
+#28 /Users/ashishmishra/Documents/myfiles/dronezone/server/index.php(111): Workerman\Worker::runAll()
+#29 {main}
+2018-06-14 23:29:55 pid:87504 Worker[87504] process terminated
+2018-06-14 23:29:55 pid:87503 worker[PHPSocketIO:87504] exit with status 64000
+2018-06-14 23:32:36 pid:87503 Workerman[index.php] stopping ...
+2018-06-14 23:32:36 pid:87503 Workerman[index.php] has been stopped
+2018-06-14 23:32:37 pid:87522 Workerman[index.php] start in DEBUG mode
+2018-06-14 23:33:56 pid:87523 Worker[87523] process terminated with ERROR: E_ERROR "Uncaught Error: Class 'e60342b6a2c8d64102eeded8' not found in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php:61
+Stack trace:
+#0 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#1 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/SocketIO.php(130): PHPSocketIO\Client->connect('/')
+#2 [internal function]: PHPSocketIO\SocketIO->onConnection(Object(PHPSocketIO\Engine\Socket))
+#3 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#4 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Engine.php(219): PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Engine\Socket))
+#5 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/ in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php on line 61"
+2018-06-14 23:33:56 pid:87522 worker[PHPSocketIO:87523] exit with status 65280
+2018-06-14 23:37:50 pid:87532 Worker[87532] process terminated with ERROR: E_ERROR "Uncaught Error: Class '8d9769f1a2c8d6410236ce47' not found in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php:61
+Stack trace:
+#0 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#1 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/SocketIO.php(130): PHPSocketIO\Client->connect('/')
+#2 [internal function]: PHPSocketIO\SocketIO->onConnection(Object(PHPSocketIO\Engine\Socket))
+#3 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#4 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Engine.php(219): PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Engine\Socket))
+#5 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/ in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php on line 61"
+2018-06-14 23:37:50 pid:87522 worker[PHPSocketIO:87532] exit with status 65280
+2018-06-14 23:42:57 pid:87543 Worker[87543] process terminated with ERROR: E_ERROR "Uncaught Error: Class '07d3853ea3c8d6410249a675' not found in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php:61
+Stack trace:
+#0 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#1 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/SocketIO.php(130): PHPSocketIO\Client->connect('/')
+#2 [internal function]: PHPSocketIO\SocketIO->onConnection(Object(PHPSocketIO\Engine\Socket))
+#3 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#4 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Engine.php(219): PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Engine\Socket))
+#5 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/ in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php on line 61"
+2018-06-14 23:42:57 pid:87522 worker[PHPSocketIO:87543] exit with status 65280
+2018-06-14 23:44:25 pid:87522 Workerman[index.php] stopping ...
+2018-06-14 23:44:25 pid:87522 Workerman[index.php] has been stopped
+2018-06-14 23:44:25 pid:87566 Workerman[index.php] start in DEBUG mode
+2018-06-15 00:21:37 pid:87567 Worker[87567] process terminated with ERROR: E_ERROR "Uncaught Error: Class '5cac6080a5c8d641013d5dca' not found in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php:61
+Stack trace:
+#0 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#1 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/SocketIO.php(130): PHPSocketIO\Client->connect('/')
+#2 [internal function]: PHPSocketIO\SocketIO->onConnection(Object(PHPSocketIO\Engine\Socket))
+#3 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#4 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Engine.php(219): PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Engine\Socket))
+#5 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/ in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php on line 61"
+2018-06-15 00:21:37 pid:87566 worker[PHPSocketIO:87567] exit with status 65280
+2018-06-15 00:22:41 pid:87566 Workerman[index.php] stopping ...
+2018-06-15 00:22:41 pid:87566 Workerman[index.php] has been stopped
+2018-06-15 00:22:45 pid:87683 Workerman[index.php] start in DEBUG mode
+2018-06-15 00:23:56 pid:87684 Worker[87684] process terminated with ERROR: E_ERROR "Uncaught Error: Class '94a0ed96a5c8d641043b9e80' not found in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php:61
+Stack trace:
+#0 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#1 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/SocketIO.php(130): PHPSocketIO\Client->connect('/')
+#2 [internal function]: PHPSocketIO\SocketIO->onConnection(Object(PHPSocketIO\Engine\Socket))
+#3 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#4 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Engine.php(219): PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Engine\Socket))
+#5 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/ in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php on line 61"
+2018-06-15 00:23:56 pid:87683 worker[PHPSocketIO:87684] exit with status 65280
+2018-06-15 00:24:26 pid:87691 Worker[87691] process terminated with ERROR: E_ERROR "Uncaught Error: Class '06da48a7a5c8d64103fef08c' not found in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php:61
+Stack trace:
+#0 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#1 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/SocketIO.php(130): PHPSocketIO\Client->connect('/')
+#2 [internal function]: PHPSocketIO\SocketIO->onConnection(Object(PHPSocketIO\Engine\Socket))
+#3 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#4 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Engine.php(219): PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Engine\Socket))
+#5 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/ in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php on line 61"
+2018-06-15 00:24:27 pid:87683 worker[PHPSocketIO:87691] exit with status 65280
+2018-06-15 00:25:03 pid:87694 Worker[87694] process terminated with ERROR: E_ERROR "Uncaught Error: Class '5dc116b0a5c8d64103bd9d88' not found in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php:61
+Stack trace:
+#0 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#1 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/SocketIO.php(130): PHPSocketIO\Client->connect('/')
+#2 [internal function]: PHPSocketIO\SocketIO->onConnection(Object(PHPSocketIO\Engine\Socket))
+#3 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#4 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Engine.php(219): PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Engine\Socket))
+#5 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/ in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php on line 61"
+2018-06-15 00:25:03 pid:87683 worker[PHPSocketIO:87694] exit with status 65280
+2018-06-15 00:27:41 pid:87697 Worker[87697] process terminated with ERROR: E_ERROR "Uncaught Error: Class '581e2db8a5c8d64103bc0265' not found in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php:61
+Stack trace:
+#0 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#1 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/SocketIO.php(130): PHPSocketIO\Client->connect('/')
+#2 [internal function]: PHPSocketIO\SocketIO->onConnection(Object(PHPSocketIO\Engine\Socket))
+#3 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#4 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Engine.php(219): PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Engine\Socket))
+#5 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/ in /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Nsp.php on line 61"
+2018-06-15 00:27:41 pid:87683 worker[PHPSocketIO:87697] exit with status 65280
+2018-06-15 00:32:14 pid:87683 Workerman[index.php] stopping ...
+2018-06-15 00:32:14 pid:87683 Workerman[index.php] has been stopped
+2018-06-15 00:32:14 pid:87726 Workerman[index.php] start in DEBUG mode
+2018-06-15 02:50:02 pid:87726 Workerman[index.php] stopping ...
+2018-06-15 02:50:02 pid:87726 Workerman[index.php] has been stopped
+2018-06-15 02:50:03 pid:88132 Workerman[index.php] start in DEBUG mode
+2018-06-15 02:50:08 pid:88132 Workerman[index.php] stopping ...
+2018-06-15 02:50:08 pid:88133 Error: Call to a member function remove() on null in /Users/ashishmishra/Documents/myfiles/dronezone/server/index.php:193
+Stack trace:
+#0 [internal function]: {closure}('6090f636aec8d64...')
+#1 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('disconnect', '6090f636aec8d64...')
+#3 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Socket.php(90): call_user_func_array(Array, Array)
+#4 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Socket.php(393): PHPSocketIO\Socket->emit('disconnect', '6090f636aec8d64...')
+#5 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Client.php(241): PHPSocketIO\Socket->onclose('6090f636aec8d64...')
+#6 [internal function]: PHPSocketIO\Client->onclose('6090f636aec8d64...', '', NULL)
+#7 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#8 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Socket.php(249): PHPSocketIO\Event\Emitter->emit('close', '6090f636aec8d64...', '', NULL)
+#9 [internal function]: PHPSocketIO\Engine\Socket->onClose()
+#10 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Event/Emitter.php(91): call_user_func_array(Array, Array)
+#11 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/phpsocket.io/src/Engine/Transport.php(68): PHPSocketIO\Event\Emitter->emit('close')
+#12 [internal function]: PHPSocketIO\Engine\Transport->onClose(Object(Workerman\Connection\TcpConnection))
+#13 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Connection/TcpConnection.php(915): call_user_func(Array, Object(Workerman\Connection\TcpConnection))
+#14 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Connection/TcpConnection.php(820): Workerman\Connection\TcpConnection->destroy()
+#15 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(2258): Workerman\Connection\TcpConnection->close()
+#16 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1670): Workerman\Worker->stop()
+#17 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(993): Workerman\Worker::stopAll()
+#18 [internal function]: Workerman\Worker::signalHandler(2)
+#19 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Events/Select.php(163): call_user_func_array(Array, Array)
+#20 [internal function]: Workerman\Events\Select->signalHandler(2, Array)
+#21 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Events/Select.php(263): pcntl_signal_dispatch()
+#22 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Select->loop()
+#23 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1356): Workerman\Worker->run()
+#24 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#25 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#26 /Users/ashishmishra/Documents/myfiles/dronezone/server/vendor/workerman/workerman/Worker.php(478): Workerman\Worker::forkWorkers()
+#27 /Users/ashishmishra/Documents/myfiles/dronezone/server/index.php(197): Workerman\Worker::runAll()
+#28 {main}
+2018-06-15 02:50:08 pid:88132 worker[PHPSocketIO:88133] exit with status 64000
+2018-06-15 02:50:08 pid:88132 Workerman[index.php] has been stopped
+2018-06-15 02:50:25 pid:88138 Workerman[index.php] start in DEBUG mode
+2018-06-15 02:51:22 pid:88138 Workerman[index.php] stopping ...
+2018-06-15 02:51:22 pid:88138 Workerman[index.php] has been stopped
+2018-06-15 02:52:11 pid:88157 Workerman[index.php] start in DEBUG mode
+2018-06-15 02:54:28 pid:88157 Workerman[index.php] stopping ...
+2018-06-15 02:54:28 pid:88157 Workerman[index.php] has been stopped
+2018-06-15 02:54:28 pid:88170 Workerman[index.php] start in DEBUG mode
+2018-06-15 03:03:39 pid:88170 Workerman[index.php] stopping ...
+2018-06-15 03:03:39 pid:88170 Workerman[index.php] has been stopped
+2018-06-15 03:03:39 pid:88204 Workerman[index.php] start in DEBUG mode
+2018-06-15 03:16:56 pid:88204 Workerman[index.php] stopping ...
+2018-06-15 03:16:56 pid:88204 Workerman[index.php] has been stopped
+2018-06-15 03:16:57 pid:88244 Workerman[index.php] start in DEBUG mode
+2018-06-15 03:19:43 pid:88244 Workerman[index.php] stopping ...
+2018-06-15 03:19:43 pid:88244 Workerman[index.php] has been stopped
+2018-06-15 03:19:43 pid:88258 Workerman[index.php] start in DEBUG mode
+2018-06-15 03:24:29 pid:88258 Workerman[index.php] stopping ...
+2018-06-15 03:24:29 pid:88258 Workerman[index.php] has been stopped
+2018-06-15 03:24:30 pid:88278 Workerman[index.php] start in DEBUG mode
+2018-06-15 03:28:00 pid:88278 Workerman[index.php] stopping ...
+2018-06-15 03:28:00 pid:88278 Workerman[index.php] has been stopped
+2018-06-15 03:28:01 pid:88290 Workerman[index.php] start in DEBUG mode
+2018-06-15 03:29:48 pid:88290 Workerman[index.php] stopping ...
+2018-06-15 03:29:48 pid:88290 Workerman[index.php] has been stopped
+2018-06-15 03:29:49 pid:88298 Workerman[index.php] start in DEBUG mode
+2018-06-15 03:32:23 pid:88298 Workerman[index.php] stopping ...
+2018-06-15 03:32:23 pid:88298 Workerman[index.php] has been stopped
+2018-06-15 03:32:24 pid:88312 Workerman[index.php] start in DEBUG mode
+2018-06-15 03:33:34 pid:88312 Workerman[index.php] stopping ...
+2018-06-15 03:33:34 pid:88312 Workerman[index.php] has been stopped
+2018-06-15 03:33:34 pid:88320 Workerman[index.php] start in DEBUG mode
+2018-06-15 03:34:36 pid:88320 Workerman[index.php] stopping ...
+2018-06-15 03:34:36 pid:88320 Workerman[index.php] has been stopped
+2018-06-15 03:34:36 pid:88326 Workerman[index.php] start in DEBUG mode
+2018-06-15 03:34:42 pid:88326 Workerman[index.php] stopping ...
+2018-06-15 03:34:42 pid:88326 Workerman[index.php] has been stopped
+2018-06-15 03:34:46 pid:88333 Workerman[index.php] start in DEBUG mode
+2018-06-15 03:35:50 pid:88333 Workerman[index.php] stopping ...
+2018-06-15 03:35:50 pid:88333 Workerman[index.php] has been stopped
+2018-06-15 03:35:51 pid:88341 Workerman[index.php] start in DEBUG mode
+2018-06-15 03:39:30 pid:88341 Workerman[index.php] stopping ...
+2018-06-15 03:39:30 pid:88341 Workerman[index.php] has been stopped
+2018-06-15 03:39:30 pid:88475 Workerman[index.php] start in DEBUG mode
+2018-06-15 03:39:40 pid:88475 Workerman[index.php] stopping ...
+2018-06-15 03:39:40 pid:88475 Workerman[index.php] has been stopped
+2018-06-15 03:39:41 pid:88479 Workerman[index.php] start in DEBUG mode
+2018-06-15 03:41:28 pid:88479 Workerman[index.php] stopping ...
+2018-06-15 03:41:28 pid:88479 Workerman[index.php] has been stopped
+2018-06-15 03:41:29 pid:88489 Workerman[index.php] start in DEBUG mode
+2018-06-15 04:07:16 pid:88489 Workerman[index.php] stopping ...
+2018-06-15 04:07:16 pid:88489 Workerman[index.php] has been stopped
+2018-06-15 04:07:17 pid:88565 Workerman[index.php] start in DEBUG mode
+2018-06-15 04:17:25 pid:88565 Workerman[index.php] stopping ...
+2018-06-15 04:17:25 pid:88565 Workerman[index.php] has been stopped
+2018-06-15 04:18:56 pid:88645 Workerman[index.php] start in DEBUG mode

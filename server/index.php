@@ -2,95 +2,56 @@
 
 use Workerman\Worker;
 use PHPSocketIO\SocketIO;
-use Hashids\Hashids;
 
 require __DIR__ . '/vendor/autoload.php';
-
-class Store {
-    private $drones;
-    private $admins;
-
-    public function __construct()
-    {
-        $this->drones = array();
-        $this->admins = array();
-    }
-
-    function genrateCode($socketId){
-        $hashId = new Hashids($socketId,3,"DRNEzne123456789");
-        return $hashId->encode(1);
-    }
-
-    function add($droneId,$socketId)
-    {
-        echo 'New drone added: - DRONE: '.$droneId;
-        return  $this->drones[$droneId] = $socketId;
-    }
-
-    function get($droneId)
-    {
-        return  $this->drones[$droneId];
-    }
-
-    function remove($socketId)
-    {
-        foreach($this->drones as $key => $value) {
-            if($socketId==$value) {
-                $this->turnOff($key);
-                unset($this->drones[$key]);
-            }
-        }
-        return sizeof($this->drones);
-    }
-
-    ///-- admin
-    function turnOn($droneId)
-    {
-        array_push($this->admins, $droneId);
-        return sizeof($this->admins);
-    }
-    function turnOff($droneId)
-    {
-        unset($this->admins[$droneId]);
-        return sizeof($this->admins);
-    }
-    function isBusy($droneId)
-    {
-        print_r($this->admins);
-        echo array_search($droneId, $this->admins);
-        return array_search($droneId, $this->admins);
-    }
-}
+require  'Admin.php';
+require  'Client.php';
 
 $io = new SocketIO(3030);
-$store = new Store();
+$admin = new Admin();
+$client = new Client();
 
-$io->on('connection', function($socket) use($io,$store){
+$io->on('connection', function($socket) use($io, $admin, $client){
     //--CLIENT
-    $socket->on('add drone', function () use($socket, $store) {
-        $droneId = $store->genrateCode($socket->id);
-        $socket->emit('drone code',array(
+    $socket->on('client-add drone', function () use($socket, $admin, $client) {
+        $droneId = $client->genrateCode($socket->id);
+        $socket->emit('client-drone code',array(
             'code'=> $droneId
         ));
+        $client->set($droneId,$socket->id);
     });
 
     //--ADMIN
-    $socket->on('admin code', function ($droneId) use($io,$socket, $store) {
-        $isBusy = $store->isBusy($droneId);
-        if($isBusy) {
-            $socket->emit('admin error',
-                'Drone busy, please refresh your drone.');
-        }else{
-            echo 'Turn on : '.$store->turnOn($droneId);
-            $store->add($droneId,$socket->id);
-            $socketId = $store->get($droneId);
-            $io->socket($socketId)->emit('client drone added', true);
+    $socket->on('admin-drone code', function ($droneId) use($io, $socket, $admin, $client) {
+        $clientId = $client->get($droneId);
+        $result = $admin->find($clientId);
+        if($clientId!==$result->client){
+            $admin->set($socket->id, $clientId);
             $socket->emit('admin drone added', true);
+            $io->to($clientId)->emit('client-drone added',true);
+        }
+        else{
+            $socket->emit('admin-error','Drone not available.');
         }
     });
 
-    $socket->on('disconnect', function () use($socket, $store) {
-        echo $store->remove($socket->id);
+    $socket->on('disconnect', function () use($io, $socket, $admin, $client) {
+          $isClient = $client->detach($socket->id);
+          $clientId = $admin->get($socket->id);
+          if($isClient){
+              $result = $admin->find($socket->id);
+              if(!empty($result->admin)){
+                  $admin->detach($result->admin);
+                  $io->to($result->admin)->emit('admin-client disconnected');
+              }
+          }else if(!empty($clientId)) {
+              $result = $admin->find($clientId);
+              if (!empty($result->admin)) {
+                  $admin->detach($result->admin);
+                  $client->detach($clientId);
+                  $io->to($clientId)->emit('client-admin disconnected');
+              }
+          }
     });
 });
 

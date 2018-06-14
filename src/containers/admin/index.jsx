@@ -16,18 +16,18 @@ class Admin extends React.Component {
   }
 
   componentDidMount() {
-    this.socket = socketIOClient('http://192.168.1.34:3030');
+    this.socket = socketIOClient('http://0.0.0.0:3030');
     this.socket.on('connect', () => {
       console.log('Admin Connected!');
       this.setState({
         connected: 'Connected',
       });
     });
-    this.socket.on('admin error', (data) => {
-      this.setState({
-        error: data,
-      });
-      console.error(data);
+    this.socket.on('admin-error', (data) => {
+      // this.setState({
+      //   error: data,
+      // });
+      console.log(data);
     });
 
     this.socket.on('admin drone added', (status) => {
@@ -35,11 +35,15 @@ class Admin extends React.Component {
         controlOn: status,
       });
     });
+
+    this.socket.on('admin-client disconnected', () => {
+      console.log('Client disconnected!!!');
+    });
   }
 
   onClick = () => {
     const { droneCode } = this.state;
-    this.socket.emit('admin code', droneCode);
+    this.socket.emit('admin-drone code', droneCode);
   };
 
   onChange = ({ target: { name, value } }) => {

@@ -10,7 +10,6 @@ class Zone extends React.Component {
     super(props);
     this.state = {
       on: false,
-      // socket: '',
       connected: '',
       joined: '',
       left: '',
@@ -19,7 +18,7 @@ class Zone extends React.Component {
 
 
   componentDidMount() {
-    const socket = socketIOClient('http://192.168.1.34:3030');
+    const socket = socketIOClient('http://0.0.0.0:3030');
     // socket.
     socket.on('connect', () => {
       console.log('Client Connected!');
@@ -27,18 +26,23 @@ class Zone extends React.Component {
         connected: 'Connected',
       });
     });
-    socket.on('drone code', (data) => {
+    socket.on('client-drone code', (data) => {
       this.setState({
         left: JSON.stringify(data),
       });
     });
-    socket.on('client drone added', (status) => {
+    socket.on('client-drone added', (status) => {
       this.setState({
         joined: JSON.stringify(status),
         on: status,
       });
     });
-    socket.emit('add drone');
+
+    socket.on('client-admin disconnected', () => {
+      console.log('Admin disconnected!!!');
+    });
+
+    socket.emit('client-add drone');
   }
 
 
