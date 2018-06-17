@@ -1,6 +1,24 @@
 import React from 'react';
 
-const Switch = ({ className, onChange = () => {} }) => (<input className={className} onChange={onChange} type="checkbox" />);
+import './style.css';
 
-export default Switch;
+const DroneSwitch = ({
+  isOn, onClick,
+}) => {
+  console.log(
+    'TEST: ',
+    isOn,
+    onClick,
+  );
+  return (
+    <div
+      role="presentation"
+      className={`switch ${isOn ? 'switch_off' : ''}`}
+      onClick={onClick}
+    >
+      {isOn ? 'OFF' : 'ON'}
+    </div>
+  );
+};
 
+export default DroneSwitch;

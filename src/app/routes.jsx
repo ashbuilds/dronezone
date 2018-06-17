@@ -15,19 +15,22 @@ const routes = {
   },
 };
 
-const Routes = () => (
+const Routes = ({ socket }) => (
   <div>
     <Switch>
       {Object.keys(routes)
-            .map(key => (
-              <Route
-                key={key}
-                exact={routes[key].exact}
-                path={key}
-                component={routes[key].component}
-              />
-            ))
-        }
+          .map(key => (
+            <Route
+              key={key}
+              exact={routes[key].exact}
+              path={key}
+              render={(props) => {
+                    const Component = routes[key].component;
+                    return <Component {...props} socket={socket} />;
+                  }}
+            />
+        ))
+      }
     </Switch>
   </div>
 );

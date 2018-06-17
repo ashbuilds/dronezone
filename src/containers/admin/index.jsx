@@ -1,6 +1,11 @@
 import React from 'react';
-import socketIOClient from 'socket.io-client';
 
+import {
+  ADMIN_RECEIVE_CODE,
+  ADMIN_DRONE_ADDED,
+  ADMIN_ERROR,
+  ADMIN_DISCONNECTED,
+} from '../../events.json';
 import './style.css';
 
 class Admin extends React.Component {
@@ -16,34 +21,34 @@ class Admin extends React.Component {
   }
 
   componentDidMount() {
-    this.socket = socketIOClient('http://0.0.0.0:3030');
-    this.socket.on('connect', () => {
-      console.log('Admin Connected!');
+    const { socket } = this.props;
+    socket.on('connect', () => {
       this.setState({
         connected: 'Connected',
       });
     });
-    this.socket.on('admin-error', (data) => {
-      // this.setState({
-      //   error: data,
-      // });
+
+    socket.on(ADMIN_ERROR, (data) => {
       console.log(data);
     });
 
-    this.socket.on('admin drone added', (status) => {
+    socket.on(ADMIN_DRONE_ADDED, (status) => {
       this.setState({
         controlOn: status,
       });
     });
 
-    this.socket.on('admin-client disconnected', () => {
-      console.log('Client disconnected!!!');
+    socket.on(ADMIN_DISCONNECTED, () => {
+      this.setState({
+        controlOn: false,
+      });
     });
   }
 
   onClick = () => {
+    const { socket } = this.props;
     const { droneCode } = this.state;
-    this.socket.emit('admin-drone code', droneCode);
+    socket.emit(ADMIN_RECEIVE_CODE, droneCode);
   };
 
   onChange = ({ target: { name, value } }) => {
@@ -56,14 +61,14 @@ class Admin extends React.Component {
     const { droneCode, controlOn, error } = this.state;
     return (
       <div className="drone_admin">
-        {this.state.connected}
         {!controlOn || error ?
-          <div>
+          <div className="admin_code">
             <input
               name="droneCode"
+              className="admin_code_input"
               onChange={this.onChange}
               value={droneCode}
-              placeholder="Drone Code(case sensitive)"
+              placeholder="DRONE CODE(CASE SENSITIVE)"
             />
             <span role="presentation" onClick={this.onClick}>Control my drone</span>
           </div> : 'Welcome to drone control!'}

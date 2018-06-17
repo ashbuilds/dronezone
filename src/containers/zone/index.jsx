@@ -1,8 +1,13 @@
 import React from 'react';
-import socketIOClient from 'socket.io-client';
 
+import {
+  CLIENT_SEND_CODE,
+  CLIENT_ADD_DRONE,
+  CLIENT_DRONE_ADDED,
+  CLIENT_DISCONNECTED,
+} from '../../events.json';
 import Drone from '../../components/drone';
-import Switch from '../../components/switch';
+import DroneSwitch from '../../components/switch';
 import './style.css';
 
 class Zone extends React.Component {
@@ -10,54 +15,66 @@ class Zone extends React.Component {
     super(props);
     this.state = {
       on: false,
-      connected: '',
+      code: '',
       joined: '',
-      left: '',
+      displayCode: false,
     };
   }
 
 
   componentDidMount() {
-    const socket = socketIOClient('http://0.0.0.0:3030');
-    // socket.
+    const { socket } = this.props;
     socket.on('connect', () => {
       console.log('Client Connected!');
       this.setState({
         connected: 'Connected',
       });
     });
-    socket.on('client-drone code', (data) => {
+    socket.on(CLIENT_SEND_CODE, ({ code }) => {
       this.setState({
-        left: JSON.stringify(data),
+        code,
       });
     });
-    socket.on('client-drone added', (status) => {
+
+    socket.on(CLIENT_DRONE_ADDED, (status) => {
       this.setState({
-        joined: JSON.stringify(status),
+        displayCode: false,
         on: status,
       });
     });
 
-    socket.on('client-admin disconnected', () => {
-      console.log('Admin disconnected!!!');
+    socket.on(CLIENT_DISCONNECTED, () => {
+      this.setState({
+        displayCode: true,
+        on: false,
+      });
     });
 
-    socket.emit('client-add drone');
+    socket.emit(CLIENT_ADD_DRONE);
   }
 
+  onToggle = () => {
+    const { socket } = this.props;
+    const { displayCode, on } = this.state;
 
-  onChange = () => {
-    const { on } = this.state;
-    if(!on) {
-
-      // this.setState({
-      //   on: !on,
-      // });
+    const isDisplay = !displayCode;
+    if (isDisplay && on) {
+      socket.disconnect();
+      this.setState({
+        displayCode: isDisplay,
+        on: false,
+      });
+    } else {
+      this.setState({
+        displayCode: true,
+      });
     }
   };
 
   render() {
-    const { on } = this.state;
+    const {
+      displayCode, on, code
+    } = this.state;
     return ([
       <div key="drone_table" className={`drone_zone ${on ? 'zone_active' : ''}`} >
         <div>
@@ -68,14 +85,21 @@ class Zone extends React.Component {
         </div>
       </div>,
       <div key="drone_container" className="drone_container">
-        Connected: {this.state.connected}
-        <br />
-        Joined: {this.state.joined}
-        <br />
-        Left: {this.state.left}
+        { displayCode && code ?
+          <div className="drone_info">
+            <div>
+              <span>Please visit : </span>
+              <a href="dronezone.ashishmishra.com/admin">dronezone.ashishmishra.com/admin </a>
+             and input the code below to control this drone.
+            </div>
+            <div>{code}</div>
+          </div> : ''}
         <Drone className={on ? 'drone_on' : ''} />
       </div>,
-      <Switch key="drone_switch" className="drone_switch" onChange={this.onChange} />,
+      <div className="switch_cover">
+        <DroneSwitch isOn={on} onClick={this.onToggle} />
+        { !on ? <p>TURN ON TO FLY</p> : '' }
+      </div>,
     ]);
   }
 }

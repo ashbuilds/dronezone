@@ -1,0 +1,10 @@
+{
+  "CLIENT_SEND_CODE": "client-drone code",
+  "CLIENT_ADD_DRONE": "client-add drone",
+  "CLIENT_DRONE_ADDED": "client-drone added",
+  "CLIENT_DISCONNECTED": "client-admin disconnected",
+  "ADMIN_RECEIVE_CODE": "admin-drone code",
+  "ADMIN_DRONE_ADDED": "admin-drone added",
+  "ADMIN_ERROR": "admin-error",
+  "ADMIN_DISCONNECTED": "admin-client disconnected"
+}

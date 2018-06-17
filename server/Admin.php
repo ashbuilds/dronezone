@@ -44,10 +44,12 @@ class Admin {
 
     function detach($socketId)
     {
+//        echo 'in admin 3rd';
         $result = false;
         foreach ($this->clients as $key => $value) {
-            if ($socketId == $value) {
+            if ($socketId == $key) {
                 $result = true;
+//                echo 'in admin 4th';
                 unset($this->clients[$key]);
             }
         }

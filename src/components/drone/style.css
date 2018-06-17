@@ -1,4 +1,6 @@
 .toy_drone{
+    bottom: 10px;
+    left: 10px;
     background: red;
     box-shadow: 1px 1px 1px 0 #0000008c;
     position: absolute;

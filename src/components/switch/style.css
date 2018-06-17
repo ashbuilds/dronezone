@@ -1,0 +1,22 @@
+.switch{
+    display: inline-block;
+    width: 85px;
+    height: 85px;
+    background-color: #4CAF50;
+    border: 1px solid #ffffff47;
+    border-radius: 50%;
+    -webkit-box-shadow: 3px 3px 10px 0 rgba(0,0,0,0.5), -2px -2px 6px 0 rgba(0,0,0,0.5) inset;
+    box-shadow: 3px 3px 10px 0 rgba(0,0,0,0.5), -2px -2px 6px 0 rgba(0,0,0,0.5) inset;
+    cursor: pointer;
+    line-height: 85px;
+    text-align: center;
+    font-size: 27px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.15);
+    transition: all 0.3s cubic-bezier(.31,.69,.58,.46);
+}
+.switch_off{
+    background-color: #F44336;
+    box-shadow: 0 0 8px 0 rgba(0,0,0,0.5),
+    -2px 0 6px 0 rgba(0,0,0,0.5) inset;
+}

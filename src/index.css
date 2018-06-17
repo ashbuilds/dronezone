@@ -22,3 +22,7 @@ div#root:before {
   width: 100%;
   z-index: -1;
 }
+a {
+  color: #237573;
+  text-decoration: none;
+}
