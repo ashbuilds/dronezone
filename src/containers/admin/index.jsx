@@ -63,6 +63,7 @@ class Admin extends React.Component {
     const { droneCode, controlOn, error } = this.state;
     return (
       <div className="drone_admin">
+        <h2 className="title">DroneZone Dashboard</h2>
         {!controlOn || error ?
           <div className="admin_code">
             <input

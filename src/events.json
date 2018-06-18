@@ -3,8 +3,10 @@
   "CLIENT_ADD_DRONE": "client-add drone",
   "CLIENT_DRONE_ADDED": "client-drone added",
   "CLIENT_DISCONNECTED": "client-admin disconnected",
+  "CLIENT_DRONE_PLACE": "client-drone place",
   "ADMIN_RECEIVE_CODE": "admin-drone code",
   "ADMIN_DRONE_ADDED": "admin-drone added",
   "ADMIN_ERROR": "admin-error",
-  "ADMIN_DISCONNECTED": "admin-client disconnected"
+  "ADMIN_DISCONNECTED": "admin-client disconnected",
+  "ADMIN_DRONE_PLACE": "admin-drone place"
 }

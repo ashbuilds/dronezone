@@ -11,6 +11,7 @@
 }
 .drone_container .drone_info{
     position: absolute;
+    width: 100%;
     bottom: 0;
 }
 .drone_container .drone_info>div:first-child{

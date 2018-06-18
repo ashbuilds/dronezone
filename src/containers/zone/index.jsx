@@ -50,7 +50,6 @@ class Zone extends React.Component {
         on: false,
       });
     });
-
     socket.emit(CLIENT_ADD_DRONE);
   }
 
@@ -64,6 +63,8 @@ class Zone extends React.Component {
       this.setState({
         displayCode: isDisplay,
         on: false,
+      }, () => {
+        window.location.reload();
       });
     } else {
       this.setState({
@@ -78,6 +79,7 @@ class Zone extends React.Component {
       displayCode, on, code,
     } = this.state;
     return ([
+      <h2 key="drone_title" className="title">DroneZone</h2>,
       <div id={this.tableId} key="drone_table" className={`drone_zone ${on ? 'zone_active' : ''}`} >
         <div>
           <span />
@@ -98,7 +100,7 @@ class Zone extends React.Component {
           </div> : ''}
         <Drone className={on ? 'drone_on' : ''} socket={socket} tableId={this.tableId} />
       </div>,
-      <div className="switch_cover">
+      <div key="drone_switch" className="switch_cover">
         <DroneSwitch isOn={on} onClick={this.onToggle} />
         { !on ? <p>TURN ON TO FLY</p> : '' }
       </div>,

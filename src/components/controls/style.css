@@ -1,3 +1,81 @@
-.place{
+.dashboard_panel{
+    position: absolute;
+    width: 80%;
+    background: #237573;
+    top: 50%;
+    left: 50%;
+    margin-left: -40%;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.5);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transform: translateY(-50%);
+}
+.dashboard_panel label{
+    display: block;
+}
+.dashboard_panel label>input, .dashboard_panel label>select{
+    font-size: 18px;
+    outline: none;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    display: inline;
+    height: 34px;
+    width: 40%;
+    max-width: 400px;
+    min-width: 200px;
+    box-shadow: 0 0 0 5px rgba(255,255,255,0.5);
+    margin-bottom: 20px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
 
+.dashboard_panel label>select{
+    text-indent: 3px;
+    box-sizing: content-box;
+}
+
+.dashboard_panel .drone_place{
+    padding: 10px 20px;
+    background: #4CAF50;
+    border-radius: 3px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.15);
+    font-size: 5vw;
+    -webkit-box-shadow: 1px 1px 2px 0 rgba(0,0,0,0.2);
+    box-shadow: 1px 1px 2px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+    display: inline;
+}
+.dashboard_panel .move{
+    margin: 20px 0 0;
+}
+.dashboard_panel .move button{
+    background: #4CAF50;
+    border-radius: 3px;
+    text-transform: uppercase;
+    padding: 8px 10px;
+    color: rgba(0, 0, 0, 0.15);
+    font-size: 3vh;
+    -webkit-box-shadow: 1px 1px 2px 0 rgba(0,0,0,0.2);
+    box-shadow: 1px 1px 2px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 420px) {
+    .dashboard_panel .move {
+        height: auto;
+    }
+    .dashboard_panel .move button{
+        display: block;
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+    .dashboard_panel .move button:last-child{
+        margin-bottom: 0;
+    }
 }

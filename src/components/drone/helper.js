@@ -25,7 +25,7 @@ class Drone {
     return angle;
   }
 
-  getPosition() {
+  getPops() {
     return {
       top: this.drone.offsetTop || 10,
       left: this.drone.offsetLeft || 10,
@@ -34,7 +34,7 @@ class Drone {
     };
   }
   isOnEdge(position, direction) {
-    const droneProps = this.getPosition();
+    const droneProps = this.getPops();
     const tableProps = this.table.getBoundingClientRect();
     let isEdge = false;
     if (direction === '-1horizontal') {
@@ -58,7 +58,6 @@ class Drone {
   rotate(direction) {
     const currentAngle = this.getAngle();
     let newAngle = 0;
-    console.log('currentAngle : ', currentAngle);
     if (direction === 'left') {
       newAngle = currentAngle - 90;
     } else {
@@ -70,14 +69,8 @@ class Drone {
     this.drone.style.transform = `scale(1.2) rotate(${newAngle}deg)`;
   }
   move() {
-    const currentPosition = this.getPosition();
+    const currentPosition = this.getPops();
     const currentAngle = this.getAngle();
-    // if (currentAngle === 0) {
-    //   const position = currentPosition.top - 20;
-    //   if (!this.isOnEdge(position, `1vertical`)) {
-    //     this.drone.style.top = `${position}px`;
-    //   }
-    // }
     if (Math.abs(currentAngle) === 90) {
       const direction = currentAngle < 0 ? 1 : -1;
       const position = currentPosition.left - (20 * direction);
@@ -92,6 +85,33 @@ class Drone {
         this.drone.style.top = `${position}px`;
       }
     }
+  }
+  facing(f = 0) {
+    this.drone.style.transform = `scale(1.2) rotate(${f}deg)`;
+  }
+  input({ x = 0, y = 0, f = 0 }) {
+    const direction = Number(f);
+    if (direction) {
+      this.facing(direction === 1 ? 0 : direction);
+    }
+    const droneProps = this.getPops();
+    const tableProps = this.table.getBoundingClientRect();
+    let left = x || droneProps.left;
+    let top = y || droneProps.top;
+    if (top < 0) {
+      top = 0;
+    }
+    if (left < 0) {
+      left = 0;
+    }
+    if (tableProps.width - tableProps.left < left) {
+      left = tableProps.width - droneProps.width;
+    }
+    if (tableProps.height - tableProps.top < top) {
+      top = tableProps.height - droneProps.height;
+    }
+    this.drone.style.left = `${left}px`;
+    this.drone.style.top = `${top}px`;
   }
 }
 

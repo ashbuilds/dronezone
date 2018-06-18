@@ -42,9 +42,9 @@ $io->on('connection', function($socket) use($io, $admin, $client, $events){
         }
     });
 
-    $socket->on('admin-drone place', function ($type) use($io, $socket, $admin, $client, $events) {
+    $socket->on($events['ADMIN_DRONE_PLACE'], function ($type) use($io, $socket, $admin, $client, $events) {
         $clientId = $admin->get($socket->id);
-        $io->to($clientId)->emit('client-drone place',array(
+        $io->to($clientId)->emit($events['CLIENT_DRONE_PLACE'],array(
             'type'=> $type,
         ));
     });

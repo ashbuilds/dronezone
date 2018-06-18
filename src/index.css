@@ -26,3 +26,9 @@ a {
   color: #237573;
   text-decoration: none;
 }
+.title{
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding: 30px;
+}
