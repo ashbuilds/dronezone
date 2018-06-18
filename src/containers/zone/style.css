@@ -9,21 +9,24 @@
     left: 50%;
     margin: 0 0 0 -40%;
 }
-
+.drone_container .drone_info{
+    position: absolute;
+    bottom: 0;
+}
 .drone_container .drone_info>div:first-child{
+    font-size: 20vw;
+    text-align: center;
+    padding: 30px;
+    color: #fff;
+    text-shadow: 0 0 9px rgba(0, 0, 0, 0.4);
+}
+.drone_container .drone_info>div:last-child{
     padding: 20px;
     font-size: 15px;
     color: #d4d4d4;
     background: rgba(0,0,0,0.7);
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
-}
-.drone_container .drone_info>div:last-child{
-    font-size: 20vw;
-    text-align: center;
-    padding: 30px;
-    color: #fff;
-    text-shadow: 0 0 9px rgba(0, 0, 0, 0.4);
 }
 
 .drone_zone{

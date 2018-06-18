@@ -7,6 +7,7 @@ import {
   ADMIN_DISCONNECTED,
 } from '../../events.json';
 import './style.css';
+import Controls from '../../components/controls';
 
 class Admin extends React.Component {
   constructor(props) {
@@ -58,6 +59,7 @@ class Admin extends React.Component {
   };
 
   render() {
+    const { socket } = this.props;
     const { droneCode, controlOn, error } = this.state;
     return (
       <div className="drone_admin">
@@ -71,7 +73,7 @@ class Admin extends React.Component {
               placeholder="DRONE CODE(CASE SENSITIVE)"
             />
             <span role="presentation" onClick={this.onClick}>Control my drone</span>
-          </div> : 'Welcome to drone control!'}
+          </div> : <Controls socket={socket} />}
       </div>
     );
   }

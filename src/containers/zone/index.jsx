@@ -13,6 +13,7 @@ import './style.css';
 class Zone extends React.Component {
   constructor(props) {
     super(props);
+    this.tableId = 'droneTable';
     this.state = {
       on: false,
       code: '',
@@ -72,11 +73,12 @@ class Zone extends React.Component {
   };
 
   render() {
+    const { socket } = this.props;
     const {
-      displayCode, on, code
+      displayCode, on, code,
     } = this.state;
     return ([
-      <div key="drone_table" className={`drone_zone ${on ? 'zone_active' : ''}`} >
+      <div id={this.tableId} key="drone_table" className={`drone_zone ${on ? 'zone_active' : ''}`} >
         <div>
           <span />
           <span />
@@ -87,14 +89,14 @@ class Zone extends React.Component {
       <div key="drone_container" className="drone_container">
         { displayCode && code ?
           <div className="drone_info">
+            <div>{code}</div>
             <div>
               <span>Please visit : </span>
               <a href="dronezone.ashishmishra.com/admin">dronezone.ashishmishra.com/admin </a>
-             and input the code below to control this drone.
+             and input the above code to control this drone.
             </div>
-            <div>{code}</div>
           </div> : ''}
-        <Drone className={on ? 'drone_on' : ''} />
+        <Drone className={on ? 'drone_on' : ''} socket={socket} tableId={this.tableId} />
       </div>,
       <div className="switch_cover">
         <DroneSwitch isOn={on} onClick={this.onToggle} />

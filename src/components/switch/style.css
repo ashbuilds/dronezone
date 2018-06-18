@@ -15,6 +15,10 @@
     color: rgba(0, 0, 0, 0.15);
     transition: all 0.3s cubic-bezier(.31,.69,.58,.46);
 }
+.switch:active{
+    box-shadow: 0 0 8px 0 rgba(0,0,0,0.5),
+    -2px 0 6px 0 rgba(0,0,0,0.5) inset;
+}
 .switch_off{
     background-color: #F44336;
     box-shadow: 0 0 8px 0 rgba(0,0,0,0.5),

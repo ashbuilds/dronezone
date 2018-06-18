@@ -1220,3 +1220,9 @@ Stack trace:
 2018-06-16 18:10:47 pid:2628 Workerman[index.php] has been stopped
 2018-06-16 18:10:47 pid:2641 Workerman[index.php] start in DEBUG mode
 2018-06-16 20:37:03 pid:1941 Workerman[index.php] start in DEBUG mode
+2018-06-17 16:02:14 pid:1941 Workerman[index.php] stopping ...
+2018-06-17 16:02:14 pid:1941 Workerman[index.php] has been stopped
+2018-06-17 16:02:14 pid:3307 Workerman[index.php] start in DEBUG mode
+2018-06-17 18:17:15 pid:3307 Workerman[index.php] stopping ...
+2018-06-17 18:17:15 pid:3307 Workerman[index.php] has been stopped
+2018-06-17 18:17:15 pid:3562 Workerman[index.php] start in DEBUG mode

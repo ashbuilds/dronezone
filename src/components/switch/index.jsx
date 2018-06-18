@@ -5,11 +5,6 @@ import './style.css';
 const DroneSwitch = ({
   isOn, onClick,
 }) => {
-  console.log(
-    'TEST: ',
-    isOn,
-    onClick,
-  );
   return (
     <div
       role="presentation"
