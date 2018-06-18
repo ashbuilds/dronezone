@@ -38,7 +38,18 @@ class Drone extends React.Component {
         } catch (e) { console.log('Error JSON parse failed!'); }
       }
     });
+    window.addEventListener('resize', this.resize, false);
   }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.resize);
+  }
+
+  resize = () => {
+    this.debounce(() => {
+      window.location.reload();
+    });
+  };
 
   debounce = (func) => {
     clearTimeout(this.debounceTime);
@@ -46,11 +57,22 @@ class Drone extends React.Component {
   };
 
   render() {
-    const { className } = this.props;
+    const { className, isOn } = this.props;
+    if (!isOn && this.drone) {
+      console.log('TURN OFFFF');
+      this.drone.style.top = '10px';
+      this.drone.style.left = '10px';
+    }
     return (
-      <div ref={(e) => { this.drone = e; }} className={`toy_drone ${className}`}>
+      <div
+        ref={(e) => { this.drone = e; }}
+        className={`toy_drone ${className} ${isOn ? 'drone_active' : ''}`}
+      >
         <span className="handle_direction" />
-        <span className="board" />
+        <span className="board">
+          <span />
+          <span />
+        </span>
       </div>);
   }
 }

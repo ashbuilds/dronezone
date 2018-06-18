@@ -98,7 +98,7 @@ class Zone extends React.Component {
              and input the above code to control this drone.
             </div>
           </div> : ''}
-        <Drone className={on ? 'drone_on' : ''} socket={socket} tableId={this.tableId} />
+        <Drone className={on ? 'drone_on' : ''} socket={socket} tableId={this.tableId} isOn={on} />
       </div>,
       <div key="drone_switch" className="switch_cover">
         <DroneSwitch isOn={on} onClick={this.onToggle} />

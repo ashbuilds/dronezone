@@ -121,6 +121,8 @@
 }
 .drone_on{
     transform: scale(1.2);
-    box-shadow: 5px 16px 20px 0 #0000008c;
+}
+.drone_on *,.drone_on *:after,.drone_on *:before {
+    box-shadow: 5px 16px 20px 0 #0000008c
 }
 
