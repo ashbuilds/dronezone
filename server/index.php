@@ -27,6 +27,10 @@ $io->on('connection', function($socket) use($io, $admin, $client, $events){
     $socket->on($events['CLIENT_ADD_DRONE'],function () use($socket, $addClient) {
         $addClient($socket->id);
     });
+    $socket->on($events['CLIENT_REPORT_SEND'],function ($data) use($io, $socket, $admin, $events) {
+        $result = $admin->find($socket->id);
+        $io->to($result->admin)->emit($events['ADMIN_REPORT_RECEIVED'],$data);
+    });
 
     //--ADMIN
     $socket->on($events['ADMIN_RECEIVE_CODE'], function ($droneId) use($io, $socket, $admin, $client, $events) {
@@ -47,6 +51,11 @@ $io->on('connection', function($socket) use($io, $admin, $client, $events){
         $io->to($clientId)->emit($events['CLIENT_DRONE_PLACE'],array(
             'type'=> $type,
         ));
+    });
+
+    $socket->on($events['ADMIN_DRONE_REPORT'],function () use($io, $socket, $admin, $events) {
+        $clientId = $admin->get($socket->id);
+        $io->to($clientId)->emit($events['CLIENT_DRONE_REPORT']);
     });
 
     $socket->on('disconnect', function () use($io, $socket, $admin, $client, $addClient, $events) {

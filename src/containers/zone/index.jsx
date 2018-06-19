@@ -96,7 +96,7 @@ class Zone extends React.Component {
             <div>{code}</div>
             <div>
               <span>Please visit : </span>
-              <a href={admin} target="_blank" rel="noopener noreferrer">{admin}</a>
+              <a href={admin} target="_blank" rel="noopener noreferrer">{admin } </a>
              and input the above code to control this drone.
             </div>
           </div> : ''}

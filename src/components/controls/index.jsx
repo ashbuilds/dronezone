@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { ADMIN_DRONE_PLACE } from '../../events.json';
+import { ADMIN_DRONE_PLACE, ADMIN_DRONE_REPORT, ADMIN_REPORT_RECEIVED } from '../../events.json';
 import './style.css';
 import Button from './button';
 
@@ -32,6 +32,27 @@ class Controls extends React.Component {
     };
   }
 
+
+  componentDidMount() {
+    const { socket } = this.props;
+    socket.on(ADMIN_REPORT_RECEIVED, (data) => {
+      let droneData = data;
+      try {
+        droneData = JSON.parse(droneData);
+      } catch (e) {
+        droneData = {};
+        console.log('Error in report parsing.');
+      }
+      const { left, top, direction } = droneData;
+      this.setState({
+        left,
+        top,
+        direction,
+      });
+    });
+  }
+
+
   onChange = ({ target: { name, value } = {} }) => {
     this.setState({
       [name]: value,
@@ -60,7 +81,12 @@ class Controls extends React.Component {
 
   onRight = () => {
     const { socket } = this.props;
-    socket.emit('admin-drone place', 'right');
+    socket.emit(ADMIN_DRONE_PLACE, 'right');
+  };
+
+  onReport = () => {
+    const { socket } = this.props;
+    socket.emit(ADMIN_DRONE_REPORT, 'report');
   };
 
   render() {
@@ -69,6 +95,9 @@ class Controls extends React.Component {
       placeY,
       placeF,
       placeFOptions,
+      left,
+      top,
+      direction,
     } = this.state;
     return (
       <div key="dashboard_panel" className="dashboard_panel">
@@ -105,6 +134,17 @@ class Controls extends React.Component {
           <Button title="LEFT" onClick={this.onLeft} />
           <Button title="MOVE" onClick={this.onMove} />
           <Button title="RIGHT" onClick={this.onRight} />
+        </div>
+        <hr />
+        <div className="report">
+          <Button className="drone_report" title="REPORT" onClick={this.onReport} />
+          {left || top || direction ?
+            <p>
+              <h4>Current position</h4>
+              {left ? <span>Left: {left}</span> : ''}
+              {top ? <span>Top: {top}</span> : ''}
+              {direction ? <span>Angle: {direction} deg.</span> : ''}
+            </p> : ''}
         </div>
       </div>);
   }

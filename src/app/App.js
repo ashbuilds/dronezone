@@ -9,7 +9,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      socket: socketIOClient(server),
+      socket: socketIOClient('http://localhost:3030'),
     };
   }
 

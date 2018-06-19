@@ -6,6 +6,7 @@ import {
   ADMIN_DRONE_ADDED,
   ADMIN_ERROR,
   ADMIN_DISCONNECTED,
+  ADMIN_DRONE_REPORT,
 } from '../../events.json';
 import './style.css';
 import Controls from '../../components/controls';
@@ -39,6 +40,7 @@ class Admin extends React.Component {
 
     socket.on(ADMIN_DISCONNECTED, () => {
       this.setState({
+        droneCode: '',
         controlOn: false,
       });
     });

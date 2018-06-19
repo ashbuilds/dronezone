@@ -111,7 +111,15 @@ class Drone {
     this.drone.style.left = `${left}px`;
     this.drone.style.top = `${top}px`;
   }
-
+  report() {
+    const { left, top } = this.getPops();
+    const currentAngle = this.getAngle();
+    return {
+      left,
+      top,
+      direction: currentAngle,
+    };
+  }
 }
 
 export default Drone;

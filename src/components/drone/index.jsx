@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 
-import { CLIENT_DRONE_PLACE } from '../../events.json';
+import { CLIENT_DRONE_PLACE, CLIENT_DRONE_REPORT, CLIENT_REPORT_SEND } from '../../events.json';
 import DroneHelper from './helper';
 import './style.css';
 
@@ -37,6 +37,10 @@ class Drone extends React.Component {
           this.state.drone.input(dataJson);
         } catch (e) { console.log('Error JSON parse failed!'); }
       }
+    });
+    socket.on(CLIENT_DRONE_REPORT, () => {
+      const droneProps = this.state.drone.report();
+      socket.emit(CLIENT_REPORT_SEND, JSON.stringify(droneProps));
     });
     window.addEventListener('resize', this.resize, false);
   }

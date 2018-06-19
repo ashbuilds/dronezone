@@ -43,7 +43,7 @@
     border-radius: 3px;
     text-transform: uppercase;
     color: rgba(0, 0, 0, 0.15);
-    font-size: 5vw;
+    font-size: 3vh;
     -webkit-box-shadow: 1px 1px 2px 0 rgba(0,0,0,0.2);
     box-shadow: 1px 1px 2px 0 rgba(0,0,0,0.2);
     cursor: pointer;
@@ -52,7 +52,7 @@
 .dashboard_panel .move{
     margin: 20px 0 0;
 }
-.dashboard_panel .move button{
+.dashboard_panel .move button, .dashboard_panel .report button{
     background: #4CAF50;
     border-radius: 3px;
     text-transform: uppercase;
@@ -63,6 +63,12 @@
     box-shadow: 1px 1px 2px 0 rgba(0,0,0,0.2);
     cursor: pointer;
     margin-left: 10px;
+}
+.dashboard_panel .report{
+    color: #ffffff;
+}
+.dashboard_panel .report span{
+    margin: 10px;
 }
 
 @media screen and (max-width: 420px) {

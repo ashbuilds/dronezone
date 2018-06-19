@@ -4,9 +4,13 @@
   "CLIENT_DRONE_ADDED": "client-drone added",
   "CLIENT_DISCONNECTED": "client-admin disconnected",
   "CLIENT_DRONE_PLACE": "client-drone place",
+  "CLIENT_DRONE_REPORT": "clint-drone report",
+  "CLIENT_REPORT_SEND": "clint-report send",
   "ADMIN_RECEIVE_CODE": "admin-drone code",
   "ADMIN_DRONE_ADDED": "admin-drone added",
   "ADMIN_ERROR": "admin-error",
   "ADMIN_DISCONNECTED": "admin-client disconnected",
-  "ADMIN_DRONE_PLACE": "admin-drone place"
+  "ADMIN_DRONE_PLACE": "admin-drone place",
+  "ADMIN_DRONE_REPORT": "admin-drone report",
+  "ADMIN_REPORT_RECEIVED": "admin-report received"
 }
