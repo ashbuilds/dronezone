@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import React from 'react';
 
 import {
@@ -6,6 +7,7 @@ import {
   CLIENT_DRONE_ADDED,
   CLIENT_DISCONNECTED,
 } from '../../events.json';
+import { admin } from '../../config';
 import Drone from '../../components/drone';
 import DroneSwitch from '../../components/switch';
 import './style.css';
@@ -17,7 +19,6 @@ class Zone extends React.Component {
     this.state = {
       on: false,
       code: '',
-      joined: '',
       displayCode: false,
     };
   }
@@ -29,6 +30,8 @@ class Zone extends React.Component {
       console.log('Client Connected!');
       this.setState({
         connected: 'Connected',
+      }, () => {
+        socket.emit(CLIENT_ADD_DRONE);
       });
     });
     socket.on(CLIENT_SEND_CODE, ({ code }) => {
@@ -50,7 +53,6 @@ class Zone extends React.Component {
         on: false,
       });
     });
-    socket.emit(CLIENT_ADD_DRONE);
   }
 
   onToggle = () => {
@@ -94,7 +96,7 @@ class Zone extends React.Component {
             <div>{code}</div>
             <div>
               <span>Please visit : </span>
-              <a href="dronezone.ashishmishra.com/admin">dronezone.ashishmishra.com/admin </a>
+              <a href={admin} target="_blank" rel="noopener noreferrer">{admin}</a>
              and input the above code to control this drone.
             </div>
           </div> : ''}
@@ -109,3 +111,7 @@ class Zone extends React.Component {
 }
 
 export default Zone;
+
+Zone.propTypes = {
+  socket: PropTypes.object.isRequired,
+};

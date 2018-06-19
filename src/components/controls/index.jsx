@@ -70,42 +70,43 @@ class Controls extends React.Component {
       placeF,
       placeFOptions,
     } = this.state;
-    return (<div key="dashboard_panel" className="dashboard_panel">
-      <div className="place">
-        <label htmlFor="placeX">
-          <input
-            name="placeX"
-            placeholder="Type X (left)"
-            value={placeX}
-            onChange={this.onChange}
-          />
-        </label>
-        <label htmlFor="placeY">
-          <input
-            name="placeY"
-            placeholder="Type Y (top)"
-            value={placeY}
-            onChange={this.onChange}
-          />
-        </label>
-        <label htmlFor="placeF">
-          <select
-            name="placeF"
-            value={placeF}
-            onChange={this.onChange}
-          ><option value={0}>Select Facing</option>
-            {placeFOptions.map(item => <option value={item.value}>{item.title}</option>)}
-          </select>
-        </label>
-        <Button className="drone_place" title="PLACE" onClick={this.onPlace} />
-      </div>
-      <hr />
-      <div className="move">
-        <Button title="LEFT" onClick={this.onLeft} />
-        <Button title="MOVE" onClick={this.onMove} />
-        <Button title="RIGHT" onClick={this.onRight} />
-      </div>
-    </div>);
+    return (
+      <div key="dashboard_panel" className="dashboard_panel">
+        <div className="place">
+          <label htmlFor="placeX">
+            <input
+              name="placeX"
+              placeholder="Type X (left)"
+              value={placeX}
+              onChange={this.onChange}
+            />
+          </label>
+          <label htmlFor="placeY">
+            <input
+              name="placeY"
+              placeholder="Type Y (top)"
+              value={placeY}
+              onChange={this.onChange}
+            />
+          </label>
+          <label htmlFor="placeF">
+            <select
+              name="placeF"
+              value={placeF}
+              onChange={this.onChange}
+            ><option value={0}>Select Facing</option>
+              {placeFOptions.map(item => <option value={item.value}>{item.title}</option>)}
+            </select>
+          </label>
+          <Button className="drone_place" title="PLACE" onClick={this.onPlace} />
+        </div>
+        <hr />
+        <div className="move">
+          <Button title="LEFT" onClick={this.onLeft} />
+          <Button title="MOVE" onClick={this.onMove} />
+          <Button title="RIGHT" onClick={this.onRight} />
+        </div>
+      </div>);
   }
 }
 

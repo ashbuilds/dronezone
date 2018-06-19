@@ -2,12 +2,6 @@ class Drone {
   constructor(tableId, drone) {
     this.drone = drone;
     this.table = document.getElementById(tableId);
-    this.tablePosition = {
-      top: this.table.offsetTop,
-      left: this.table.offsetLeft,
-      width: this.table.offsetWidth,
-      height: this.table.offsetHeight,
-    };
   }
 
   getAngle() {
@@ -21,8 +15,7 @@ class Drone {
     const values = transform.split('(')[1].split(')')[0].split(',');
     const a = values[0];
     const b = values[1];
-    const angle = Math.round(Math.atan2(b, a) * (180 / Math.PI));
-    return angle;
+    return Math.round(Math.atan2(b, a) * (180 / Math.PI));
   }
 
   getPops() {
@@ -33,6 +26,7 @@ class Drone {
       height: this.drone.offsetHeight,
     };
   }
+
   isOnEdge(position, direction) {
     const droneProps = this.getPops();
     const tableProps = this.table.getBoundingClientRect();
@@ -55,6 +49,7 @@ class Drone {
     }
     return isEdge;
   }
+
   rotate(direction) {
     const currentAngle = this.getAngle();
     let newAngle = 0;
@@ -68,6 +63,7 @@ class Drone {
     }
     this.drone.style.transform = `scale(1.2) rotate(${newAngle}deg)`;
   }
+
   move() {
     const currentPosition = this.getPops();
     const currentAngle = this.getAngle();
@@ -86,9 +82,11 @@ class Drone {
       }
     }
   }
+
   facing(f = 0) {
     this.drone.style.transform = `scale(1.2) rotate(${f}deg)`;
   }
+
   input({ x = 0, y = 0, f = 0 }) {
     const direction = Number(f);
     if (direction) {
@@ -113,6 +111,7 @@ class Drone {
     this.drone.style.left = `${left}px`;
     this.drone.style.top = `${top}px`;
   }
+
 }
 
 export default Drone;

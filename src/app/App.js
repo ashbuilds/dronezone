@@ -3,12 +3,13 @@ import { BrowserRouter } from 'react-router-dom';
 import socketIOClient from 'socket.io-client';
 
 import Routes from './routes';
+import { server } from '../config';
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      socket: socketIOClient('http://0.0.0.0:3030'),
+      socket: socketIOClient(server),
     };
   }
 

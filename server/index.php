@@ -1,5 +1,5 @@
 <?php
-
+header('Access-Control-Allow-Origin: *', false);
 use Workerman\Worker;
 use PHPSocketIO\SocketIO;
 

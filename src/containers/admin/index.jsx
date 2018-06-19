@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import React from 'react';
 
 import {
@@ -13,7 +14,6 @@ class Admin extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      connected: '',
       droneCode: '',
       controlOn: false,
       error: false,
@@ -24,9 +24,7 @@ class Admin extends React.Component {
   componentDidMount() {
     const { socket } = this.props;
     socket.on('connect', () => {
-      this.setState({
-        connected: 'Connected',
-      });
+      console.log('Admin Connected!');
     });
 
     socket.on(ADMIN_ERROR, (data) => {
@@ -81,3 +79,7 @@ class Admin extends React.Component {
 }
 
 export default Admin;
+
+Admin.propTypes = {
+  socket: PropTypes.object.isRequired,
+};

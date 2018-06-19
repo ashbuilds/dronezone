@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import React from 'react';
 
 import { CLIENT_DRONE_PLACE } from '../../events.json';
@@ -23,7 +24,6 @@ class Drone extends React.Component {
     }
     socket.on(CLIENT_DRONE_PLACE, (data) => {
       const { type } = data;
-      console.log('type : ', type);
       if (type === 'move') {
         this.state.drone.move();
       } else if (type === 'left' || type === 'right') {
@@ -59,7 +59,7 @@ class Drone extends React.Component {
   render() {
     const { className, isOn } = this.props;
     if (!isOn && this.drone) {
-      console.log('TURN OFFFF');
+      console.log('TURNED OFF');
       this.drone.style.top = '10px';
       this.drone.style.left = '10px';
     }
@@ -78,3 +78,17 @@ class Drone extends React.Component {
 }
 
 export default Drone;
+
+Drone.propTypes = {
+  className: PropTypes.string,
+  isOn: PropTypes.bool,
+  socket: PropTypes.object,
+  tableId: PropTypes.string,
+};
+
+Drone.defaultProps = {
+  className: '',
+  isOn: false,
+  socket: {},
+  tableId: '',
+};
